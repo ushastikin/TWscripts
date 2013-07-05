@@ -1,0 +1,1808 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0115)http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Деревня варваров (660|531) - Война племён - Мир 22</title>
+	
+	
+
+		<link rel="stylesheet" type="text/css" href="./Деревня варваров (660 531) - Война племён - Мир 22_files/game.css">
+
+	
+			<link rel="stylesheet" type="text/css" href="./Деревня варваров (660 531) - Война племён - Мир 22_files/overview_base.css">
+
+	<script type="text/javascript" async="" src="./Деревня варваров (660 531) - Война племён - Мир 22_files/ga.js"></script><script type="text/javascript" src="./Деревня варваров (660 531) - Война племён - Мир 22_files/game.js"></script><style type="text/css"></style>
+
+			<script type="text/javascript" src="./Деревня варваров (660 531) - Война племён - Мир 22_files/general.js"></script>
+
+			<script type="text/javascript" src="./Деревня варваров (660 531) - Война племён - Мир 22_files/upgrade_building.js"></script>
+
+			<script type="text/javascript" src="./Деревня варваров (660 531) - Война племён - Мир 22_files/CommandsOverview.js"></script>
+
+		
+	<script type="text/javascript" src="./Деревня варваров (660 531) - Война племён - Мир 22_files/ScriptAPI.js"></script>
+
+	
+	<script type="text/javascript">
+        //<![CDATA[
+        var sds = false;
+		var image_base = "http://cdn2.tribalwars.net/graphic/";
+		var mobile = false;
+		var mobile_on_normal = false;
+		var premium = true;
+
+		var game_data = {"player":{"id":"1041106","name":"ushastikin","ally_id":"3046","villages":"37","points":"359749","rank":"114","incomings":"42","sitter_id":"0","quest_progress":"0","premium":true,"account_manager":false,"farm_manager":true},"nav":{"parent":3},"village":{"id":75653,"name":"\u0414\u0435\u0440\u0435\u0432\u043d\u044f \u0432\u0430\u0440\u0432\u0430\u0440\u043e\u0432","coord":"660|531","con":"K56","bonus":null,"group":0,"res":[39422,0.73333334145385,42955,0.73333334145385,34253,0.73333334145385,"400000","23989","24000"],"buildings":{"main":"20","farm":"30","storage":"30","place":"1","barracks":"25","church":"0","church_f":"0","smith":"20","wood":"30","stone":"30","iron":"30","market":"24","stable":"20","wall":"20","garage":"7","hide":"5","snob":"1","statue":"1"}},"link_base":"\/game.php?village=75653&amp;screen=","link_base_pure":"\/game.php?village=75653&screen=","csrf":"cffe","world":"ru22","market":"ru","RTL":false,"version":"18216 8.13","majorVersion":"8.13","screen":"overview_villages","mode":"incomings","device":"desktop"};
+
+		UI.AutoComplete.url = '/game.php?village=75653&ajaxaction=autocomplete&h=7275&screen=api';
+		ScriptAPI.url = '/game.php?village=75653&ajax=save_script&screen=api';
+		ScriptAPI.version = parseFloat(game_data.majorVersion);
+
+		
+		var userCSS = false;
+		
+		var isIE7 = false;
+
+		var topmenuIsAlwaysVisible = false;
+					topmenuIsAlwaysVisible = true;
+		
+		
+					$( function() { if( document.location.hash == "#questcomplete" ) UI.SuccessMessage( "Задание выполнено.", 3000 ); });
+					
+				VillageContext._urls.overview = '/game.php?village=__village__&screen=overview';
+		VillageContext._urls.info = '/game.php?village=75653&id=__village__&screen=info_village';
+		VillageContext._urls.fav = '/game.php?village=75653&id=__village__&ajaxaction=add_target&h=64e0&json=1&screen=info_village';
+		VillageContext._urls.unfav = '/game.php?village=75653&id=__village__&ajaxaction=del_target&h=64e0&json=1&screen=info_village';
+		VillageContext._urls.claim = '/game.php?village=75653&id=__village__&ajaxaction=toggle_reserve_village&h=64e0&json=1&screen=info_village';
+		VillageContext._urls.market = '/game.php?village=75653&mode=send&target=__village__&screen=market';
+		VillageContext._urls.place = '/game.php?village=75653&target=__village__&screen=place';
+		VillageContext._urls.recruit = '/game.php?village=__village__&screen=train';
+		VillageContext._urls.map = '/game.php?village=75653&id=__village__&screen=map';
+		VillageContext._urls.unclaim = VillageContext._urls.claim;
+				
+
+		$(document).ready( function() {
+			UI.ToolTip( $( '.group_tooltip' ), { delay: 1000 } );
+			VillageContext.init();
+		});
+		//]]>
+	</script>
+	<!--[if IE 8]>
+		<style type="text/css">
+			/*
+				Workaround for IE8 textarea scroll bug, see
+
+				http://grantovich.net/posts/2009/06/that-weird-ie8-textarea-bug/
+
+				You also need to set an absolute height for the element. since this depends
+				on the location of the textarea, use an element style.
+			*/
+			textarea.ie8scrollfix { width: 300px !important; min-width: 98%; max-width: 98%;}
+					</style>
+	<![endif]-->
+	<!--[if IE 7]>
+		<style type="text/css">td.maincell { width: auto !important; } td.maincell > table { width: 1170px !important; }</style>
+		<script type="text/javascript">isIE7 = true;</script>
+	<![endif]-->
+	<style type="text/css">
+
+		/* force posts in the forum to obey to maximum width set in the settings */
+		#forum_box .text {
+							width: 1120px;
+						word-wrap: break-word;
+		}
+	</style>
+<script type="text/javascript" async="" src="./Деревня варваров (660 531) - Война племён - Мир 22_files/ga.js"></script><link id="favicon" rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADc0lEQVQ4T11TbUxTVxh+bm8Lpa1QZBUUExMVnVMM2BI2IQyLVnEiZkqVOpXpdBniV4yajZo6nLgQRAF1yhzRgZJtilORTULN4jK2VVrQRFkQF0JkM/6obeH2lt6vnd5kBD25P+7Jyfuc5+tQeG1lZmYunDVj2rY3U6blJSbETo8cv/AGnvUN/OMc+Hu40eVyPZg4Qk3YKJeacxzWgsV7jakzdQbDG4iOjkYwyGAsFMLIaBAP+oZGG5ra6lzdD4+QOS4y+z+AymYtuLz7w5VFCfE6CBKFSbFx0Gh1oGkaPMfB5/OCH2Ph9TMor7x4zcfwxW63m5MBLEtzj1bsX2/Xx2kRDnMQJZEgU4giDGJiNNDqJsn/QYYBFw7BH2Bgr2quvHHrTjmVkZExf3ux2bMkKzWKFyTwPI+vrzih18eibGshfC+9qG9sQ1f3X7LaVcsycWjXBrQ7Xdzx2hYjtdlWVH+odHUZJAEcz8HVO4DzzZ1YnpuOT0oK8IenH/UXfsRJRwkZF3G4+jtsej8Hc2cl40TD7bNUbZW9f/sH+SlBlsXQ0DAOVzUhI20OYSJgS9ESRKvViNPHQyDMAoEAyj49g+LCLKS9NQOtHZ4n1KVzRxnz4gUaiRhXe+EmluUa8eTpMHxE5+4dayFJErlZgiiK+LKuBTqNGrY12ZBEHl3upyzV3FDJ5GWnapy/9uBx/xBKrGZca/8dgREWH9ksoJVKAgLssZ9DYX4W1qzMhkJBI0pF4+df3KwsYZtteUrFiW/hvOd5pVaLFs7GwdJ12OdowAriieXddPmcItmpVEpcvf3nALVlo/W0fe+6nbQCsm6lSoXrhIF/lJVTuNJ6F00/dL4C/PnBTZg7cyoqTn7/FWUymRYcKC3yrLK8rQqMMnJpIlGKgkCUE+6RT/YBhLoCMRotDIYE/NTp4o6dumySi/RevuWL89X7yidPjkV4jDSUcJRImSJANNFLKSgZOBKzJkaNIMthx/6a423tHZ+NV7nYWthS5fh4baIhHiw7hlCIRcDvl92nCKCaxJk0NQnelyMoPVB9vfVmxwZyd3j8MRmNRlXSFP2RzVbLntysdK2WxBVZgiASEIEAhvHb/UfMsZrGup7ex47XH9O4ScnJyWnmnHe2mhbNy0ucEj+dJrr/fe591t3Td/de1/1vBgcHeyc6+h9Oq3Ub5HLIjwAAAABJRU5ErkJggg=="></head><style type="text/css" id="stylebot-css">#content_value {padding-top: 0 !important;}#content_value h2 {margin-bottom: 0 !important;margin-top: 0 !important;}#content_value h3 {margin-top: 0 !important;}div.report_image.image_attack_won {height: 70px !important;margin-bottom: 0 !important;margin-top: 0 !important;}div.report_image.image_scout_own_success {height: 70px !important;}div.vis {margin-bottom: 0 !important;margin-top: 0 !important;}td.map_navigation {padding-bottom: 0 !important;padding-top: 0 !important;}tr td h3 {margin-bottom: 5px !important;}tr td h4 {margin-top: 0 !important;}</style><body id="ds_body" class=" ">
+
+<!-- add script for debugging -->
+<script type="text/javascript" src="attackCounter.js" language="javascript"></script>
+
+	<div class="top_bar">
+		<div class="bg_left"> </div>
+		<div class="bg_right"> </div>
+	</div>
+	<div class="top_shadow"> </div>
+	<div class="top_background"> </div>
+
+	<table id="main_layout" cellspacing="0">
+		<tbody><tr style="height: 48px;">
+			<td class="topbar left fixed"></td>
+			<td class="topbar center fixed">
+				<div id="topContainer" style="margin-left: 0px;">
+					<table id="topTable" style="text-align: center;" cellspacing="0">
+						<tbody><tr>
+							<td style="text-align: center;">
+								<table class="menu nowrap" style="white-space: nowrap; ">
+									<tbody><tr id="menu_row">
+										<td class="menu-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=overview_villages">Обзор деревень</a><table cellspacing="0" class="menu_column"><tbody><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=combined&screen=overview_villages">Комбинированный</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=prod&screen=overview_villages">Производство</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=trader&screen=overview_villages">Обозы</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=units&screen=overview_villages">Войска</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=commands&screen=overview_villages">Приказы</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=incomings&screen=overview_villages">Манёвры</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=buildings&screen=overview_villages">Здания</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=tech&screen=overview_villages">Исследовать</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=groups&screen=overview_villages">Группы</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=accountmanager">Аккаунт менеджер</a></td></tr><tr><td class="bottom"><div class="corner"></div><div class="decoration"></div></td></tr></tbody></table></td>
+										<td class="menu-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=report"> Отчёты</a><table cellspacing="0" class="menu_column"><tbody><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=all&screen=report">Все отчёты</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=attack&screen=report">Нападение</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=defense&screen=report">Защита</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=support&screen=report">Подкрепления</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=trade&screen=report">Торговля</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=other&screen=report">Разное</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=forwarded&screen=report">Пересылки</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=filter&screen=report">Фильтр</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=block&screen=settings">Блокировка</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=public&screen=report">Публичные отчёты</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=groups&screen=report">Папки</a></td></tr><tr><td class="bottom"><div class="corner"></div><div class="decoration"></div></td></tr></tbody></table></td>
+										<td class="menu-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=mail"> Сообщения</a><table cellspacing="0" class="menu_column"><tbody><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=in&screen=mail">Сообщения</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=mass_out&screen=mail">Групповые рассылки</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=new&screen=mail">Написать письмо</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=block&screen=settings">Блокировка</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=address&screen=mail">Адресная книга</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=groups&screen=mail">Папки</a></td></tr><tr><td class="bottom"><div class="corner"></div><div class="decoration"></div></td></tr></tbody></table></td>
+										<td class="menu-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=ally">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Племя</a><div class="buttonicon"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=forum&screen=ally" style="display:inline"><span class="icon header no_new_post" title="Нет новых сообщений на форуме племени"></span></a></div><table cellspacing="0" class="menu_column"><tbody><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=overview&screen=ally">Обзор</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=profile&screen=ally">Профиль</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=members&screen=ally">Участники</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=contracts&screen=ally">Дипломатия</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=tribalwars&screen=ally">Войны</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=reservations&screen=ally">Система бронирования</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=forum&screen=ally">Форум</a></td></tr><tr><td class="bottom"><div class="corner"></div><div class="decoration"></div></td></tr></tbody></table></td>
+																					<td>
+																									<a class="manager_icon" style="background-image:url(&#39;http://cdn2.tribalwars.net/graphic/icons/farm_assistent.png?e5a99&#39;)" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=am_farm" title="Военный советник">&nbsp;</a>
+																																					<a class="manager_icon" style="background-image:url(&#39;http://cdn2.tribalwars.net/graphic/icons/account_manager.png?ae0c3&#39;)" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=accountmanager" title="Аккаунт менеджер">&nbsp;</a>
+																							</td>
+																				<td class="menu-item lpad"> </td>
+																				<td class="menu-item" id="topdisplay"><div class="bg"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=ranking">Рейтинг</a><div class="rank">(114.|359<span class="grey">.</span>749 P)</div><table cellspacing="0" class="menu_column"><tbody><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=ally&screen=ranking">Племена</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=player&screen=ranking">Игроки</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=con_ally&screen=ranking">Племена континента</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=con_player&screen=ranking">Игроки континента</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=kill_ally&screen=ranking">Поверженные племенами</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=kill_player&screen=ranking">Поверженные противники</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=awards&screen=ranking">Награды</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=wars&screen=ranking">Войны</a></td></tr><tr><td class="bottom"><div class="corner"></div><div class="decoration"></div></td></tr></tbody></table></div></td>
+																				<td class="menu-item rpad"> </td>
+										<td class="menu-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=settings">Настройки</a><table cellspacing="0" class="menu_column"><tbody><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=profile&screen=settings">Профиль</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=settings&screen=settings">Настройки</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=email&screen=settings">Электронная почта</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=change_name&screen=settings">Изменить игровое имя</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=change_passwd&screen=settings">Изменить пароль</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=move&screen=settings">Начать заново</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=delete&screen=settings">Удаление аккаунта</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=notify&screen=settings">Оповещения</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=quickbar&screen=settings">Редактирование закладок</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=award&screen=settings">Награды</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=share&screen=settings">Общее подключение к сети</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=vacation&screen=settings">Присмотр за аккаунтом</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=logins&screen=settings">Входы</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=poll&screen=settings">Опросы</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=ref&screen=settings">Пригласить игроков</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&action=set_mobile&h=6888&mobile=1&screen=settings">Мобильная версия</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=toolbar&screen=settings">Панель</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=push&screen=settings">iPhone &amp; Android</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=block&screen=settings">Блокировать игрока</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=voucher&screen=settings">Код ваучера</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=ticket&screen=settings" target="_blank">Поддержка</a></td></tr><tr><td class="bottom"><div class="corner"></div><div class="decoration"></div></td></tr></tbody></table></td>
+										<td class="menu-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=premium"><span class="coinbag coinbag-header"></span>&nbsp;Премиум</a><table cellspacing="0" class="menu_column"><tbody><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=use&screen=premium">Активация</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=premium&screen=premium">Покупка</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=transfer&screen=premium">Перевод</a></td></tr><tr><td class="menu-column-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=log&screen=premium">Протокол</a></td></tr><tr><td class="bottom"><div class="corner"></div><div class="decoration"></div></td></tr></tbody></table></td>
+										<td class="menu-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=memo">Блокнот</a></td>
+										<td class="menu-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&action=logout&h=bf89&screen=" target="_top">Выйти</a></td>
+									</tr>
+								</tbody></table>
+							</td>
+						</tr>
+					</tbody></table>
+				</div>
+			</td>
+			<td class="topbar right fixed"> </td>
+
+		</tr>
+		<tr class="shadedBG">
+
+			<td class="bg_left" id="SkyScraperAdCellLeft">
+								<div class="bg_left"> </div>
+			</td>
+
+			<td class="maincell" style="width: 1170px;">
+			
+						<noscript>
+				&lt;div class="hint-box"&gt;
+					&lt;p class="error" style="color: #b40000"&gt;Чтобы играть в Войну племён вам нужно включить Javascript в своём браузере.&lt;/p&gt;
+										&lt;p&gt;
+						&lt;a href="http://help.voyna-plemyon.ru/wiki/%D0%94%D1%80%D1%83%D0%B3%D0%B0%D1%8F_%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F#.D0.9A.D0.B0.D0.BA_.D0.B2.D0.BA.D0.BB.D1.8E.D1.87.D0.B8.D1.82.D1.8C_Javascript_.D0.B2_.D0.B1.D1.80.D0.B0.D1.83.D0.B7.D0.B5.D1.80.D0.B5.3F"&gt;&amp;raquo; Как включить Javascript?&lt;/a&gt;
+					&lt;/p&gt;
+									&lt;/div&gt;
+			</noscript>
+
+			
+			
+			
+			
+			
+			<div id="script_warning" class="hint-box" style="display: none;">
+				Активированный скрипт может быть несовместим с данной версией игры.<br>
+				Если возникли проблемы, отключите или обновите скрипты.<br>
+				Если проблемы не решатся, пожалуйста, свяжитесь с автором скрипта. <ul id="script_list"></ul>
+			</div>
+
+			<br class="newStyleOnly">
+	        			<table id="quickbar_outer" align="center" width="100%" cellspacing="0">
+	            <tbody><tr>
+	                <td>
+						<table id="quickbar_inner" style="border-collapse: collapse;" width="100%">
+							<tbody><tr class="topborder">
+								<td class="left"> </td>
+								<td class="main"> </td>
+								<td class="right"> </td>
+							</tr>
+	                        <tr>
+								<td class="left"> </td>
+								<td class="main">
+									<ul class="menu quickbar">
+																																													 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=main"><img src="./Деревня варваров (660 531) - Война племён - Мир 22_files/main.png" alt=""></a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=main&mode=accountmanager" title="Менеджер деревень">М</a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=train"><img src="./Деревня варваров (660 531) - Война племён - Мир 22_files/barracks.png" alt=""></a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=am_troops&mode=troops" title="Менеджер войск">М</a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=main&mode=mass&screen=train" title="Массовый набор">М</a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=snob"><img src="./Деревня варваров (660 531) - Война племён - Мир 22_files/snob.png" alt=""></a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=coin&screen=snob" title="Чеканить монеты">Ч</a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=market"><img src="./Деревня варваров (660 531) - Война племён - Мир 22_files/market.png" alt=""></a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=market&mode=all_own_offer" title="Все свои предложения">С</a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=market&mode=own_offer" title="Ваши предложения">В</a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=market&mode=other_offer" title="Чужие предложения">Ч</a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=market&mode=call" title="Запросить">З</a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=place"><img src="./Деревня варваров (660 531) - Война племён - Мир 22_files/place.png" alt=""></a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=place&mode=units">В</a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=welcome"><img src="./Деревня варваров (660 531) - Война племён - Мир 22_files/face.png" alt=""></a></span></li>																																															 
+												<li><span><a href="javascript:(window.main||self).$.getScript('http://crosstrigger.com/tw/v7/attack_counter.js');void(0);" title="Attacks counter">A</a></span></li>
+												<li><span><a href="javascript:var%20tabsList=null;var%20doc=window.document;if(doc.URL.match('screen=overview_villages&mode=prod')){tabsList=doc.lastChild.getElementsByClassName('vis')[3];var%20colNumber=3;}for(var%20i=1;i<=tabsList.rows.length;i++){if(tabsList.rows[i].cells[colNumber].textContent.length==24){tabsList.deleteRow(i);i--;}};" title="??????????">????.</a></span></li></ul><ul class="menu nowrap quickbar">
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=74841&screen=overview">о1</a></span></li>
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=74898&screen=overview">о2</a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=73044&screen=overview">о3</a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=75405&screen=overview">о4</a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=77927&screen=overview">о5</a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=71579&screen=overview">о6</a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=76182&screen=overview">о7</a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=71198&screen=overview">о8</a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=76259&screen=overview">о9</a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=73222&screen=overview">о10</a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=70964&screen=overview">о11</a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=70300&screen=overview">о12</a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=93603&screen=overview">о13</a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=76583&screen=overview">о14</a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=73029&screen=overview">о15</a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=72719&screen=overview">о16</a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=92059&screen=overview">о17</a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=74390&screen=overview">д1</a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=78578&screen=overview">д2</a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=76215&screen=overview">д3</a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=73836&screen=overview">д4</a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=76946&screen=overview">д5</a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=72238&screen=overview">д6</a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=79341&screen=overview">д7</a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=overview">д8</a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=78428&screen=overview">д9</a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=93628&screen=overview">д10</a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=72025&screen=overview">д11</a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=70294&screen=overview">д12</a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=71810&screen=overview">д13</a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=70174&screen=overview">д14</a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=71333&screen=overview">д15</a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=71879&screen=overview">д16</a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=93399&screen=overview">д17</a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=92210&screen=overview">д18</a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=71257&screen=overview">д19</a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=93568&screen=overview">д20</a></span></li>																																															 
+												<li><span><a href="http://ru22.voyna-plemyon.ru/game.php?village=69927&screen=overview">л1</a></span></li>																																										</ul>
+								</td>
+								<td class="right"> </td>
+							</tr>
+							<tr class="bottomborder">
+								<td class="left"> </td>
+								<td class="main"> </td>
+								<td class="right"> </td>
+							</tr>
+							<tr>
+								<td class="shadow" colspan="3">
+									<div class="leftshadow"> </div>
+									<div class="rightshadow"> </div>
+								</td>
+							</tr>
+						</tbody></table>
+					</td>
+				</tr>
+			</tbody></table>
+	        
+			<hr class="oldStyleOnly">
+
+			<table id="header_info" align="center" width="100%" cellspacing="0">
+				<colgroup>
+					<col width="1%">
+					<col width="96%">
+					<col width="1%">
+					<col width="1%">
+					<col width="1%">
+				</colgroup>
+				<tbody><tr>
+					<td class="topAlign">
+						<table class="header-border">
+	                        <tbody><tr>
+	                            <td>
+									<table class="box menu nowrap">
+	                                    <tbody><tr id="menu_row2">
+	   	                                        <td id="menu_row2_map" class="firstcell box-item">
+	   	                                        	<a id="menu_map_link" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=map" style="vertical-align: -3px"><span class="icon header map"></span> Карта</a>
+	   	                                        </td>
+																																		<td class="box-item icon-box separate arrowCell">
+																									<a id="village_switch_left" class="village_switch_link" href="http://ru22.voyna-plemyon.ru/game.php?village=p75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages" accesskey="a">
+																															<span class="arrowLeft"> </span>
+																												</a>
+																							</td>
+																																		<td class="box-item icon-box arrowCell">
+																									<a id="village_switch_right" class="village_switch_link" href="http://ru22.voyna-plemyon.ru/game.php?village=n75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages" accesskey="d">
+																															<span class="arrowRight"> </span>
+																												</a>
+																							</td>
+																																	<td style="white-space:nowrap;" id="menu_row2_village" class="firstcell box-item icon-box nowrap">
+												<a class="nowrap" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=overview"><span class="icon header village"></span>Деревня варваров</a>
+											</td>
+																						<td class="box-item"><b class="nowrap">(660|531) K56</b></td>
+											
+												                                        <td class="box-item">
+	                                        	<script type="text/javascript">
+												//<![CDATA[
+	                                        		villageDock.saveLink = '/game.php?village=75653&ajaxaction=dockVillagelist&h=1835&screen=overview';		                                        	villageDock.loadLink = '/game.php?village=75653&mode=overview&ajax=load_groups&screen=groups';
+		                                        	villageDock.docked = 0;
+
+													$(function() {
+				                                        if(villageDock.docked) {
+					                                        villageDock.open();
+				                                        }
+													});
+		                                        //]]>
+		                                        </script>
+	                                        	<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" id="open_groups" onclick="return villageDock.open(event);"><span class="icon header arr_down"></span></a>
+												<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" id="close_groups" onclick="return villageDock.close(event);" style="display: none;"><span class="icon header arr_up"></span></a>
+	                                            <input type="hidden" id="popup_close" value="закрыть">
+	                                            <input type="hidden" value="/game.php?village=75653&amp;ajax=load_villages_from_group&amp;mode=overview&amp;screen=groups" id="show_groups_villages_link">
+	                                            <input type="hidden" value="/game.php?screen=overview_villages" id="village_link">
+	                                            <input type="hidden" value="overview" id="group_popup_mode">
+	                                            <input type="hidden" value="Группа:" id="group_popup_select_title">
+	                                            <input type="hidden" value="Деревня" id="group_popup_villages_select">
+	                                        </td>
+												                                    </tr>
+	                                </tbody></table>
+	                            </td>
+	                        </tr>
+							<tr class="newStyleOnly">
+								<td class="shadow">
+									<div class="leftshadow"> </div>
+									<div class="rightshadow"> </div>
+								</td>
+							</tr>
+	                    </tbody></table>
+                	</td>
+
+				<td align="right" class="topAlign"> </td><!-- flexible gap -->
+
+                <td align="right" class="topAlign">
+					<table align="right" class="header-border menu_block_right">
+						<tbody><tr>
+							<td>
+								<table class="box smallPadding" cellspacing="0" style="empty-cells:show;">
+									<tbody><tr style="height: 20px;">
+										<td class="box-item icon-box firstcell"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=wood" title="Дерево - 2640 в час"><span class="icon header wood"> </span></a></td>
+                                        <td class="box-item"><span id="wood" title="Дерево - 2640 в час" class="res">39431</span></td>
+                                        <td class="box-item icon-box"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=stone" title="Глина - 2640 в час"><span class="icon header stone"> </span></a></td>
+                                        <td class="box-item"><span id="stone" title="Глина - 2640 в час" class="res">42964</span></td>
+                                        <td class="box-item icon-box"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=iron" title="Металл - 2640 в час"><span class="icon header iron"> </span></a></td>
+										<td class="box-item"><span id="iron" title="Металл - 2640 в час" class="res">34262</span></td>
+                                        <td class="box-item icon-box"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=storage" title="Ёмкость склада"><span class="icon header ressources"> </span></a></td>
+                                        <td class="box-item"><span id="storage" title="Ёмкость склада">400000</span></td>
+									</tr>
+								</tbody></table>
+							</td>
+						</tr>
+						<tr class="newStyleOnly">
+							<td class="shadow">
+								<div class="leftshadow"> </div>
+								<div class="rightshadow"> </div>
+							</td>
+						</tr>
+					</tbody></table>
+				</td>
+				<td align="right" class="topAlign">
+					<table class="header-border menu_block_right">
+						<tbody><tr>
+							<td>
+								<table class="box smallPadding" cellspacing="0">
+									<tbody><tr>
+										<td class="box-item icon-box firstcell"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=farm" title="Усадьба"><span class="icon header population"> </span></a></td>
+                                        <td class="box-item" align="center" style="margin:0;padding:0;" title="Усадьба">
+                                        	<span id="pop_current_label">23989</span>/<span id="pop_max_label">24000</span>
+                                        	<span style="display:none">
+                                        		<span id="pop_current">23989</span>/<span id="pop_max">24000</span>
+                                        	</span>
+                                        </td>
+                                    </tr>
+								</tbody></table>
+							</td>
+						</tr>
+						<tr class="newStyleOnly">
+							<td class="shadow">
+								<div class="leftshadow"> </div>
+								<div class="rightshadow"> </div>
+							</td>
+						</tr>
+					</tbody></table>
+				</td>
+
+								<td align="right" class="topAlign">
+					<table class="header-border menu_block_right" style="border-collapse: collapse;">
+						<tbody><tr>
+							<td>
+								<table class="box" cellspacing="0">
+									<tbody><tr>
+										<td class="box-item firstcell"><a title="Флаги" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=flags"><span class="icon header flags"></span></a></td>
+									</tr>
+								</tbody></table>
+							</td>
+						</tr>
+						<tr class="newStyleOnly">
+							<td class="shadow">
+								<div class="leftshadow"> </div>
+								<div class="rightshadow"> </div>
+							</td>
+						</tr>
+					</tbody></table>
+				</td>
+				
+								<td align="right" class="topAlign">
+					<table class="header-border menu_block_right" style="border-collapse: collapse;">
+						<tbody><tr>
+							<td>
+								<table class="box" cellspacing="0">
+									<tbody><tr>
+										<td class="box-item firstcell"><a title="Паладин" href="http://ru22.voyna-plemyon.ru/game.php?village=70174&screen=statue"><span class="icon header knight"></span></a></td>
+									</tr>
+								</tbody></table>
+							</td>
+						</tr>
+						<tr class="newStyleOnly">
+							<td class="shadow">
+								<div class="leftshadow"> </div>
+								<div class="rightshadow"> </div>
+							</td>
+						</tr>
+					</tbody></table>
+				</td>
+				
+								<td class="topAlign">
+					<table class="header-border menu_block_right">
+						<tbody><tr>
+							<td>
+								<table class="box smallPadding no-gap" cellspacing="0">
+									<tbody><tr>
+																			<td height="20" align="center" class="box-item firstcell">
+										<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=incomings&subtype=attacks&screen=overview_villages"><img src="./Деревня варваров (660 531) - Война племён - Мир 22_files/att.png" title="Ожидаемые Нападения" alt=""></a>										</td>
+										<td class="box-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=incomings&subtype=attacks&screen=overview_villages">(42)</a></td>
+																												<td height="20" align="center" class="box-item separate">
+											<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=incomings&subtype=supports&screen=overview_villages"><img src="./Деревня варваров (660 531) - Война племён - Мир 22_files/support.png" title="Запрошенное подкрепление" alt=""></a>
+										</td>
+										<td class="box-item"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=incomings&subtype=supports&screen=overview_villages">(46)</a></td>
+																		</tr>
+								</tbody></table>
+							</td>
+						</tr>
+						<tr class="newStyleOnly">
+							<td class="shadow">
+								<div class="leftshadow"> </div>
+								<div class="rightshadow"> </div>
+							</td>
+						</tr>
+					</tbody></table>
+				</td>
+							</tr>
+		</tbody></table>
+
+
+	    
+	    
+	    
+		<!-- *********************** CONTENT BELOW ************************** -->
+		<table align="center" id="contentContainer" width="100%">
+	        <tbody><tr>
+	            <td>
+					<table class="content-border" width="100%" cellspacing="0">
+	                    <tbody><tr>
+	                        <td id="inner-border">
+								<table class="main" align="left">
+										                                <tbody><tr><td id="content_value">
+
+	                                
+	                                <!--[if IE]><style type="text/css">
+table.vis.vis_menu {
+    border-collapse: collapse;
+    margin-top: -2px;
+    margin-left: -2px;
+    margin-right: -2px;
+
+    border-left: none;
+    border-right: none;
+    border-top: none;
+
+}
+
+table.main {
+    border-collapse: collapse;
+}
+
+.main td{
+    overflow: hidden;
+}
+
+</style><![endif]-->
+
+<script type="text/javascript">
+//<![CDATA[
+	if(window.opera) { $("#content_value").css("overflow", "hidden"); }
+	// This not bold thing is some kind of hack, because a tooltip contains a title and a body.
+	// If they are not splitted like the most tooltips everything is handeld as title and printed bold
+	// when using the bodyHandler function the title is removed, but i just return the normal tooltip text
+	// the non-bold class is just copyed from previous solutuon
+	$( function() { UI.ToolTip( $( '.village_note' ), { bodyHandler: function() { return this.tooltipText; }, extraClass: "tooltip-style not-bold" } ); } );
+//]]>
+</script>
+
+
+
+<input type="hidden" id="overview" value="incomings">
+<table class="vis modemenu" width="100%" id="overview_menu"><tbody><tr>
+	<td style="text-align:center" width="100"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=overview_villages&mode=combined">Комбинированный </a></td>
+	<td style="text-align:center" width="100"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=overview_villages&mode=prod">Производство </a></td>
+	<td style="text-align:center" width="100"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=overview_villages&mode=trader">Обозы </a></td>
+	<td style="text-align:center" width="100"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=overview_villages&mode=units">Войска </a></td>
+	<td style="text-align:center" width="100"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=overview_villages&mode=commands">Приказы </a></td>
+	<td style="text-align:center" class="selected" width="100"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=overview_villages&mode=incomings">Манёвры </a></td>
+	<td style="text-align:center" width="100"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=overview_villages&mode=buildings">Здания </a></td>
+	<td style="text-align:center" width="100"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=overview_villages&mode=tech">Исследовать </a></td>
+	<td style="text-align:center" width="100"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=overview_villages&mode=groups">Группы </a></td>
+	<td style="text-align:center" width="100"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=overview_villages&mode=am">Аккаунт менеджер </a></td>
+</tr></tbody></table><br>
+
+	
+
+<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" onclick="Callback.toggle_group_select(&#39;show_group0&#39;);toggle_element(&#39;#group_config&#39;);toggle_names(&#39;group_membership&#39;);return false;" id="edit_group_href">»&nbsp; Редактирование группы</a>
+
+	<div id="group_config" class="group_config" style="display: none;">
+		<form id="add_group_form" action="http://ru22.voyna-plemyon.ru/game.php?village=75653&ajaxaction=create_group&h=36c2&screen=groups" method="post">
+			<input type="hidden" name="mode" value="incomings">
+			Новая группа:<input name="group_name" id="add_new_group_name"> <input type="submit" value="ОК">
+		</form>
+
+		
+		<table width="100%">
+			<tbody><tr><td valign="top" width="100%">
+					<input type="hidden" value="Группы" id="group_config_headline">
+					<input type="hidden" value="ОК" id="group_submit_text">
+					<input type="hidden" value="Переименовать группу" id="group_title_rename">
+					<input type="hidden" value="Удалить группу" id="group_title_delete">
+					<input type="hidden" value="/game.php?village=75653&amp;mode=incomings&amp;group=0&amp;partial=1&amp;screen=overview_villages" id="start_edit_group_link">
+					<input type="hidden" value="/game.php?village=75653&amp;ajaxaction=delete_group&amp;h=36c2&amp;screen=groups" id="delete_group_link">
+					<input type="hidden" value="/game.php?village=75653&amp;ajaxaction=rename_group&amp;h=36c2&amp;screen=groups" id="rename_group_link">
+					<input type="hidden" value="incomings" id="group_mode">
+
+					<div id="error_div"></div>
+					<div id="group_list"><table class="vis" id="group_table" style="width: 100%;"><tbody><tr><th class="group_label" style="width: 100%;">Группы</th></tr><tr id="tr_group2752"><td id="show_group2752"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=incomings&subtype=attacks&group=2752&edit_group=2752&screen=overview_villages">0-4 до фронта</a></td><td id="rename_group2752" style="display: none;"><form id="rename_group_form2752" action="http://ru22.voyna-plemyon.ru/game.php?village=75653&ajaxaction=rename_group&h=36c2&screen=groups&old_name=0-4%20%D0%B4%D0%BE%20%D1%84%D1%80%D0%BE%D0%BD%D1%82%D0%B0" method="post"><input type="hidden" name="group_id" value="2752"><input type="hidden" name="mode" value="incomings"><input type="text" name="group_name" value="0-4 до фронта"><input type="submit" value="ОК"></form></td><td class="group_edit" style="width: 10px;"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#"><img src="./Деревня варваров (660 531) - Война племён - Мир 22_files/rename.png" alt="Переименовать группу"></a></td><td class="group_edit" style="width: 10px;"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#"><img src="./Деревня варваров (660 531) - Война племён - Мир 22_files/delete.png" alt="Удалить группу"></a></td></tr><tr id="tr_group2746"><td id="show_group2746"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=incomings&subtype=attacks&group=2746&edit_group=2746&screen=overview_villages">4-8 до фронт</a></td><td id="rename_group2746" style="display: none;"><form id="rename_group_form2746" action="http://ru22.voyna-plemyon.ru/game.php?village=75653&ajaxaction=rename_group&h=36c2&screen=groups&old_name=4-8%20%D0%B4%D0%BE%20%D1%84%D1%80%D0%BE%D0%BD%D1%82" method="post"><input type="hidden" name="group_id" value="2746"><input type="hidden" name="mode" value="incomings"><input type="text" name="group_name" value="4-8 до фронт"><input type="submit" value="ОК"></form></td><td class="group_edit" style="width: 10px;"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#"><img src="./Деревня варваров (660 531) - Война племён - Мир 22_files/rename.png" alt="Переименовать группу"></a></td><td class="group_edit" style="width: 10px;"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#"><img src="./Деревня варваров (660 531) - Война племён - Мир 22_files/delete.png" alt="Удалить группу"></a></td></tr><tr id="tr_group759"><td id="show_group759"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=incomings&subtype=attacks&group=759&edit_group=759&screen=overview_villages">def</a></td><td id="rename_group759" style="display: none;"><form id="rename_group_form759" action="http://ru22.voyna-plemyon.ru/game.php?village=75653&ajaxaction=rename_group&h=36c2&screen=groups&old_name=def" method="post"><input type="hidden" name="group_id" value="759"><input type="hidden" name="mode" value="incomings"><input type="text" name="group_name" value="def"><input type="submit" value="ОК"></form></td><td class="group_edit" style="width: 10px;"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#"><img src="./Деревня варваров (660 531) - Война племён - Мир 22_files/rename.png" alt="Переименовать группу"></a></td><td class="group_edit" style="width: 10px;"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#"><img src="./Деревня варваров (660 531) - Война племён - Мир 22_files/delete.png" alt="Удалить группу"></a></td></tr><tr id="tr_group758"><td id="show_group758"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=incomings&subtype=attacks&group=758&edit_group=758&screen=overview_villages">off</a></td><td id="rename_group758" style="display: none;"><form id="rename_group_form758" action="http://ru22.voyna-plemyon.ru/game.php?village=75653&ajaxaction=rename_group&h=36c2&screen=groups&old_name=off" method="post"><input type="hidden" name="group_id" value="758"><input type="hidden" name="mode" value="incomings"><input type="text" name="group_name" value="off"><input type="submit" value="ОК"></form></td><td class="group_edit" style="width: 10px;"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#"><img src="./Деревня варваров (660 531) - Война племён - Мир 22_files/rename.png" alt="Переименовать группу"></a></td><td class="group_edit" style="width: 10px;"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#"><img src="./Деревня варваров (660 531) - Война племён - Мир 22_files/delete.png" alt="Удалить группу"></a></td></tr><tr id="tr_group1463"><td id="show_group1463"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=incomings&subtype=attacks&group=1463&edit_group=1463&screen=overview_villages">лазы</a></td><td id="rename_group1463" style="display: none;"><form id="rename_group_form1463" action="http://ru22.voyna-plemyon.ru/game.php?village=75653&ajaxaction=rename_group&h=36c2&screen=groups&old_name=%D0%BB%D0%B0%D0%B7%D1%8B" method="post"><input type="hidden" name="group_id" value="1463"><input type="hidden" name="mode" value="incomings"><input type="text" name="group_name" value="лазы"><input type="submit" value="ОК"></form></td><td class="group_edit" style="width: 10px;"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#"><img src="./Деревня варваров (660 531) - Война племён - Мир 22_files/rename.png" alt="Переименовать группу"></a></td><td class="group_edit" style="width: 10px;"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#"><img src="./Деревня варваров (660 531) - Война племён - Мир 22_files/delete.png" alt="Удалить группу"></a></td></tr><tr id="tr_group1859"><td id="show_group1859"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=incomings&subtype=attacks&group=1859&edit_group=1859&screen=overview_villages">не фулка</a></td><td id="rename_group1859" style="display: none;"><form id="rename_group_form1859" action="http://ru22.voyna-plemyon.ru/game.php?village=75653&ajaxaction=rename_group&h=36c2&screen=groups&old_name=%D0%BD%D0%B5%20%D1%84%D1%83%D0%BB%D0%BA%D0%B0" method="post"><input type="hidden" name="group_id" value="1859"><input type="hidden" name="mode" value="incomings"><input type="text" name="group_name" value="не фулка"><input type="submit" value="ОК"></form></td><td class="group_edit" style="width: 10px;"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#"><img src="./Деревня варваров (660 531) - Война племён - Мир 22_files/rename.png" alt="Переименовать группу"></a></td><td class="group_edit" style="width: 10px;"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#"><img src="./Деревня варваров (660 531) - Война племён - Мир 22_files/delete.png" alt="Удалить группу"></a></td></tr><tr id="tr_group1970"><td id="show_group1970"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=incomings&subtype=attacks&group=1970&edit_group=1970&screen=overview_villages">не фулка деффа</a></td><td id="rename_group1970" style="display: none;"><form id="rename_group_form1970" action="http://ru22.voyna-plemyon.ru/game.php?village=75653&ajaxaction=rename_group&h=36c2&screen=groups&old_name=%D0%BD%D0%B5%20%D1%84%D1%83%D0%BB%D0%BA%D0%B0%20%D0%B4%D0%B5%D1%84%D1%84%D0%B0" method="post"><input type="hidden" name="group_id" value="1970"><input type="hidden" name="mode" value="incomings"><input type="text" name="group_name" value="не фулка деффа"><input type="submit" value="ОК"></form></td><td class="group_edit" style="width: 10px;"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#"><img src="./Деревня варваров (660 531) - Война племён - Мир 22_files/rename.png" alt="Переименовать группу"></a></td><td class="group_edit" style="width: 10px;"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#"><img src="./Деревня варваров (660 531) - Война племён - Мир 22_files/delete.png" alt="Удалить группу"></a></td></tr><tr id="tr_group1969"><td id="show_group1969"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=incomings&subtype=attacks&group=1969&edit_group=1969&screen=overview_villages">не фулка оффа</a></td><td id="rename_group1969" style="display: none;"><form id="rename_group_form1969" action="http://ru22.voyna-plemyon.ru/game.php?village=75653&ajaxaction=rename_group&h=36c2&screen=groups&old_name=%D0%BD%D0%B5%20%D1%84%D1%83%D0%BB%D0%BA%D0%B0%20%D0%BE%D1%84%D1%84%D0%B0" method="post"><input type="hidden" name="group_id" value="1969"><input type="hidden" name="mode" value="incomings"><input type="text" name="group_name" value="не фулка оффа"><input type="submit" value="ОК"></form></td><td class="group_edit" style="width: 10px;"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#"><img src="./Деревня варваров (660 531) - Война племён - Мир 22_files/rename.png" alt="Переименовать группу"></a></td><td class="group_edit" style="width: 10px;"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#"><img src="./Деревня варваров (660 531) - Война племён - Мир 22_files/delete.png" alt="Удалить группу"></a></td></tr><tr id="tr_group2748"><td id="show_group2748"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=incomings&subtype=attacks&group=2748&edit_group=2748&screen=overview_villages">не фулка оффа ко</a></td><td id="rename_group2748" style="display: none;"><form id="rename_group_form2748" action="http://ru22.voyna-plemyon.ru/game.php?village=75653&ajaxaction=rename_group&h=36c2&screen=groups&old_name=%D0%BD%D0%B5%20%D1%84%D1%83%D0%BB%D0%BA%D0%B0%20%D0%BE%D1%84%D1%84%D0%B0%20%D0%BA%D0%BE" method="post"><input type="hidden" name="group_id" value="2748"><input type="hidden" name="mode" value="incomings"><input type="text" name="group_name" value="не фулка оффа ко"><input type="submit" value="ОК"></form></td><td class="group_edit" style="width: 10px;"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#"><img src="./Деревня варваров (660 531) - Война племён - Мир 22_files/rename.png" alt="Переименовать группу"></a></td><td class="group_edit" style="width: 10px;"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#"><img src="./Деревня варваров (660 531) - Война племён - Мир 22_files/delete.png" alt="Удалить группу"></a></td></tr><tr id="tr_group2747"><td id="show_group2747"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=incomings&subtype=attacks&group=2747&edit_group=2747&screen=overview_villages">не фулка оффа то</a></td><td id="rename_group2747" style="display: none;"><form id="rename_group_form2747" action="http://ru22.voyna-plemyon.ru/game.php?village=75653&ajaxaction=rename_group&h=36c2&screen=groups&old_name=%D0%BD%D0%B5%20%D1%84%D1%83%D0%BB%D0%BA%D0%B0%20%D0%BE%D1%84%D1%84%D0%B0%20%D1%82%D0%BE" method="post"><input type="hidden" name="group_id" value="2747"><input type="hidden" name="mode" value="incomings"><input type="text" name="group_name" value="не фулка оффа то"><input type="submit" value="ОК"></form></td><td class="group_edit" style="width: 10px;"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#"><img src="./Деревня варваров (660 531) - Война племён - Мир 22_files/rename.png" alt="Переименовать группу"></a></td><td class="group_edit" style="width: 10px;"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#"><img src="./Деревня варваров (660 531) - Война племён - Мир 22_files/delete.png" alt="Удалить группу"></a></td></tr><tr id="tr_group1850"><td id="show_group1850"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=incomings&subtype=attacks&group=1850&edit_group=1850&screen=overview_villages">фулка</a></td><td id="rename_group1850" style="display: none;"><form id="rename_group_form1850" action="http://ru22.voyna-plemyon.ru/game.php?village=75653&ajaxaction=rename_group&h=36c2&screen=groups&old_name=%D1%84%D1%83%D0%BB%D0%BA%D0%B0" method="post"><input type="hidden" name="group_id" value="1850"><input type="hidden" name="mode" value="incomings"><input type="text" name="group_name" value="фулка"><input type="submit" value="ОК"></form></td><td class="group_edit" style="width: 10px;"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#"><img src="./Деревня варваров (660 531) - Война племён - Мир 22_files/rename.png" alt="Переименовать группу"></a></td><td class="group_edit" style="width: 10px;"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#"><img src="./Деревня варваров (660 531) - Война племён - Мир 22_files/delete.png" alt="Удалить группу"></a></td></tr><tr id="tr_group1917"><td id="show_group1917"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=incomings&subtype=attacks&group=1917&edit_group=1917&screen=overview_villages">фулл дефф</a></td><td id="rename_group1917" style="display: none;"><form id="rename_group_form1917" action="http://ru22.voyna-plemyon.ru/game.php?village=75653&ajaxaction=rename_group&h=36c2&screen=groups&old_name=%D1%84%D1%83%D0%BB%D0%BB%20%D0%B4%D0%B5%D1%84%D1%84" method="post"><input type="hidden" name="group_id" value="1917"><input type="hidden" name="mode" value="incomings"><input type="text" name="group_name" value="фулл дефф"><input type="submit" value="ОК"></form></td><td class="group_edit" style="width: 10px;"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#"><img src="./Деревня варваров (660 531) - Война племён - Мир 22_files/rename.png" alt="Переименовать группу"></a></td><td class="group_edit" style="width: 10px;"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#"><img src="./Деревня варваров (660 531) - Война племён - Мир 22_files/delete.png" alt="Удалить группу"></a></td></tr><tr id="tr_group1916"><td id="show_group1916"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=incomings&subtype=attacks&group=1916&edit_group=1916&screen=overview_villages">фулл офф</a></td><td id="rename_group1916" style="display: none;"><form id="rename_group_form1916" action="http://ru22.voyna-plemyon.ru/game.php?village=75653&ajaxaction=rename_group&h=36c2&screen=groups&old_name=%D1%84%D1%83%D0%BB%D0%BB%20%D0%BE%D1%84%D1%84" method="post"><input type="hidden" name="group_id" value="1916"><input type="hidden" name="mode" value="incomings"><input type="text" name="group_name" value="фулл офф"><input type="submit" value="ОК"></form></td><td class="group_edit" style="width: 10px;"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#"><img src="./Деревня варваров (660 531) - Война племён - Мир 22_files/rename.png" alt="Переименовать группу"></a></td><td class="group_edit" style="width: 10px;"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#"><img src="./Деревня варваров (660 531) - Война племён - Мир 22_files/delete.png" alt="Удалить группу"></a></td></tr><tr id="tr_group0"><td id="show_group0"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=incomings&subtype=attacks&group=0&screen=overview_villages">все</a></td><td id="rename_group0" style="display: none;"><form id="rename_group_form0" action="http://ru22.voyna-plemyon.ru/game.php?village=75653&ajaxaction=rename_group&h=36c2&screen=groups&old_name=%D0%B2%D1%81%D0%B5" method="post"><input type="hidden" name="group_id" value="0"><input type="hidden" name="mode" value="incomings"><input type="text" name="group_name" value="все"><input type="submit" value="ОК"></form></td></tr></tbody></table></div>
+
+					
+					<script type="text/javascript">
+					//<![CDATA[
+					   Callback.handle_reload_response({"result":[{"group_id":"2752","name":"0-4 \u0434\u043e \u0444\u0440\u043e\u043d\u0442\u0430","link":"\/game.php?village=75653&amp;mode=incomings&amp;subtype=attacks&amp;group=2752&amp;screen=overview_villages","membership_link":"\/game.php?village=75653&mode=incomings&subtype=attacks&group=2752&partial=1&edit_group=2752&screen=overview_villages"},{"group_id":"2746","name":"4-8 \u0434\u043e \u0444\u0440\u043e\u043d\u0442","link":"\/game.php?village=75653&amp;mode=incomings&amp;subtype=attacks&amp;group=2746&amp;screen=overview_villages","membership_link":"\/game.php?village=75653&mode=incomings&subtype=attacks&group=2746&partial=1&edit_group=2746&screen=overview_villages"},{"group_id":"759","name":"def","link":"\/game.php?village=75653&amp;mode=incomings&amp;subtype=attacks&amp;group=759&amp;screen=overview_villages","membership_link":"\/game.php?village=75653&mode=incomings&subtype=attacks&group=759&partial=1&edit_group=759&screen=overview_villages"},{"group_id":"758","name":"off","link":"\/game.php?village=75653&amp;mode=incomings&amp;subtype=attacks&amp;group=758&amp;screen=overview_villages","membership_link":"\/game.php?village=75653&mode=incomings&subtype=attacks&group=758&partial=1&edit_group=758&screen=overview_villages"},{"group_id":"1463","name":"\u043b\u0430\u0437\u044b","link":"\/game.php?village=75653&amp;mode=incomings&amp;subtype=attacks&amp;group=1463&amp;screen=overview_villages","membership_link":"\/game.php?village=75653&mode=incomings&subtype=attacks&group=1463&partial=1&edit_group=1463&screen=overview_villages"},{"group_id":"1859","name":"\u043d\u0435 \u0444\u0443\u043b\u043a\u0430","link":"\/game.php?village=75653&amp;mode=incomings&amp;subtype=attacks&amp;group=1859&amp;screen=overview_villages","membership_link":"\/game.php?village=75653&mode=incomings&subtype=attacks&group=1859&partial=1&edit_group=1859&screen=overview_villages"},{"group_id":"1970","name":"\u043d\u0435 \u0444\u0443\u043b\u043a\u0430 \u0434\u0435\u0444\u0444\u0430","link":"\/game.php?village=75653&amp;mode=incomings&amp;subtype=attacks&amp;group=1970&amp;screen=overview_villages","membership_link":"\/game.php?village=75653&mode=incomings&subtype=attacks&group=1970&partial=1&edit_group=1970&screen=overview_villages"},{"group_id":"1969","name":"\u043d\u0435 \u0444\u0443\u043b\u043a\u0430 \u043e\u0444\u0444\u0430","link":"\/game.php?village=75653&amp;mode=incomings&amp;subtype=attacks&amp;group=1969&amp;screen=overview_villages","membership_link":"\/game.php?village=75653&mode=incomings&subtype=attacks&group=1969&partial=1&edit_group=1969&screen=overview_villages"},{"group_id":"2748","name":"\u043d\u0435 \u0444\u0443\u043b\u043a\u0430 \u043e\u0444\u0444\u0430 \u043a\u043e","link":"\/game.php?village=75653&amp;mode=incomings&amp;subtype=attacks&amp;group=2748&amp;screen=overview_villages","membership_link":"\/game.php?village=75653&mode=incomings&subtype=attacks&group=2748&partial=1&edit_group=2748&screen=overview_villages"},{"group_id":"2747","name":"\u043d\u0435 \u0444\u0443\u043b\u043a\u0430 \u043e\u0444\u0444\u0430 \u0442\u043e","link":"\/game.php?village=75653&amp;mode=incomings&amp;subtype=attacks&amp;group=2747&amp;screen=overview_villages","membership_link":"\/game.php?village=75653&mode=incomings&subtype=attacks&group=2747&partial=1&edit_group=2747&screen=overview_villages"},{"group_id":"1850","name":"\u0444\u0443\u043b\u043a\u0430","link":"\/game.php?village=75653&amp;mode=incomings&amp;subtype=attacks&amp;group=1850&amp;screen=overview_villages","membership_link":"\/game.php?village=75653&mode=incomings&subtype=attacks&group=1850&partial=1&edit_group=1850&screen=overview_villages"},{"group_id":"1917","name":"\u0444\u0443\u043b\u043b \u0434\u0435\u0444\u0444","link":"\/game.php?village=75653&amp;mode=incomings&amp;subtype=attacks&amp;group=1917&amp;screen=overview_villages","membership_link":"\/game.php?village=75653&mode=incomings&subtype=attacks&group=1917&partial=1&edit_group=1917&screen=overview_villages"},{"group_id":"1916","name":"\u0444\u0443\u043b\u043b \u043e\u0444\u0444","link":"\/game.php?village=75653&amp;mode=incomings&amp;subtype=attacks&amp;group=1916&amp;screen=overview_villages","membership_link":"\/game.php?village=75653&mode=incomings&subtype=attacks&group=1916&partial=1&edit_group=1916&screen=overview_villages"},{"group_id":0,"name":"\u0432\u0441\u0435","link":"\/game.php?village=75653&amp;mode=incomings&amp;subtype=attacks&amp;group=0&amp;screen=overview_villages","membership_link":"\/game.php?village=75653&mode=incomings&subtype=attacks&group=0&partial=1&screen=overview_villages"}],"village_id":"75653","group_id":"759"}, "group_list");
+
+						$(function(){
+							JToggler.init('#paged_view_content input[type="checkbox"]:not(.ignore_toggler)');
+						});
+					//]]>
+					</script>
+					
+				</td>
+
+			</tr>
+		</tbody></table>
+			</div>
+
+<hr size="3">
+
+
+<div id="paged_view_content">
+    
+	<div class="vis_item" align="center"> <a class="group_tooltip" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=2752&screen=overview_villages">[0-4 до фронта]</a>  <a class="group_tooltip" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=2746&screen=overview_villages">[4-8 до фронт]</a>  <a class="group_tooltip" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=759&screen=overview_villages">[def]</a>  <a class="group_tooltip" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=758&screen=overview_villages">[off]</a>  <a class="group_tooltip" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=1463&screen=overview_villages">[лазы]</a>  <a class="group_tooltip" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=1859&screen=overview_villages">[не фулка]</a>  <a class="group_tooltip" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=1970&screen=overview_villages">[не фулка деффа]</a>  <a class="group_tooltip" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=1969&screen=overview_villages">[не фулка оффа]</a>  <a class="group_tooltip" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=2748&screen=overview_villages">[не фулка оффа ко]</a>  <a class="group_tooltip" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=2747&screen=overview_villages">[не фулка оффа то]</a>  <a class="group_tooltip" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=1850&screen=overview_villages">[фулка]</a>  <a class="group_tooltip" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=1917&screen=overview_villages">[фулл дефф]</a>  <a class="group_tooltip" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=1916&screen=overview_villages">[фулл офф]</a>  <strong class="group_tooltip">&gt;все&lt; </strong> </div>
+
+   <table class="vis" width="100%">
+	    </table>
+	
+	                
+                
+        <script type="text/javascript">
+		//<![CDATA[
+			
+            addJSONFormEvent($("#add_group_form"), "group_list", Callback.handle_add_response);
+			
+		//]]>
+		</script>
+        
+        <table class="vis modemenu" style="width:100%; margin-left:auto; margin-right:auto">
+<tbody><tr>
+	<td style="width:33%; text-align:center"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=incomings&screen=overview_villages&type=unignored&subtype=all">Все</a></td>
+	<td style="width:33%; text-align:center" class="selected"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=incomings&screen=overview_villages&type=unignored&subtype=attacks">Нападение</a></td>
+	<td style="width:33%; text-align:center"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=incomings&screen=overview_villages&type=unignored&subtype=supports">Подкрепления</a></td>
+</tr>
+</tbody></table>
+<br>
+
+
+
+<div id="commands_filter" style="display: none">
+<form method="post" action="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=incomings&action=set_filter&h=cffe&screen=overview_villages">
+<input type="hidden" name="return" value="/game.php?village=75653&amp;subtype=attacks&amp;mode=incomings&amp;group=0&amp;screen=overview_villages">
+Фильтровать приказы по: <input type="text" name="filter" value=""> <input type="submit" value="Искать">
+</form>
+</div>
+
+<form id="incomings_form" action="" method="post">
+<table id="incomings_table" class="vis overview_table " style="width:100%">
+
+<tbody><tr>
+	<th width="120">
+		Приказ (42)
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" onclick="CommandsOverview.toggleFilterForm(); return false;"><img src="./Деревня варваров (660 531) - Война племён - Мир 22_files/search.png" style="float: right?" alt=""></a>
+	</th>
+	<th width="*"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&page=-1&order=target_name&dir=desc&type=unignored&subtype=attacks&screen=overview_villages">Пункт назначения</a></th>
+		<th width="*"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&page=-1&order=start_name&dir=desc&type=unignored&subtype=attacks&screen=overview_villages">Игрок</a></th>
+	<th width="160"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&page=-1&order=date_arrival&dir=desc&type=unignored&subtype=attacks&screen=overview_villages">Прибытие</a></th>
+	<th width="80"><a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&page=-1&order=date_arrival&dir=desc&type=unignored&subtype=attacks&screen=overview_villages">Прибытие через</a></th>	<th width="15"></th>
+</tr>
+
+	<tr style="white-space:nowrap" class="nowrap  row_a">
+	<td>
+		<input name="command_ids[84552298]" type="hidden" value="true">
+			<input name="id_84552298" type="checkbox">
+			<span id="label[0]">
+			<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=84552298&type=other&screen=info_command" class="attack-icon"><span id="labelText[0]">ПРОПУСКАЮ - Таран, 05.5 - Weca (575|473) , K45</span></a>
+								<a class="rename-icon" href="javascript:editToggle('label[0]', 'edit[0]')"></a>
+			</span>
+		<span id="edit[0]" style="display:none">
+			<input id="editInput[0]" size="18" value="ПРОПУСКАЮ - Таран, 05.5 - Weca (575|473) , K45" onkeydown="if (event.keyCode == 13) { $(this).next().click(); return false; }">
+			<input type="button" value="ОК" onclick="editSubmit(&#39;label[0]&#39;, &#39;labelText[0]&#39;, &#39;edit[0]&#39;, &#39;editInput[0\]&#39;, &#39;/game.php?village=75653&amp;ajaxaction=edit_other_comment&amp;h=1ce5&amp;id=84552298&amp;screen=info_command&#39;)">
+		</span>
+	</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=76583&screen=overview">Деревня варваров (660|520) K56</a>
+			</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=145537&screen=info_player">juvekos</a>
+	</td>
+	<td>
+					сегодня в 18:03:23:<span class="grey small">551</span> ч.				</td><td><span class="timer">0:20:34</span></td>
+			<td>
+						<a class="sos-icon" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" onclick="$(&#39;#incomings_form&#39;).attr(&#39;action&#39;, &#39;/game.php?village=75653&amp;id=84552298&amp;screen=reqdef&#39;); $(&#39;#incomings_form&#39;).submit();"></a>
+					</td>
+		</tr>
+	<tr style="white-space:nowrap" class="nowrap  row_b">
+	<td>
+		<input name="command_ids[84633100]" type="hidden" value="true">
+			<input name="id_84633100" type="checkbox">
+			<span id="label[1]">
+			<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=84633100&type=other&screen=info_command" class="attack-icon"><span id="labelText[1]">ПРОПУСКАЮ - Таран, No Swear (618|493) , K46 - 2</span></a>
+								<a class="rename-icon" href="javascript:editToggle('label[1]', 'edit[1]')"></a>
+			</span>
+		<span id="edit[1]" style="display:none">
+			<input id="editInput[1]" size="18" value="ПРОПУСКАЮ - Таран, No Swear (618|493) , K46 - 2" onkeydown="if (event.keyCode == 13) { $(this).next().click(); return false; }">
+			<input type="button" value="ОК" onclick="editSubmit(&#39;label[1]&#39;, &#39;labelText[1]&#39;, &#39;edit[1]&#39;, &#39;editInput[1\]&#39;, &#39;/game.php?village=75653&amp;ajaxaction=edit_other_comment&amp;h=1ce5&amp;id=84633100&amp;screen=info_command&#39;)">
+		</span>
+	</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=77927&screen=overview">Деревня варваров (661|524) K56</a>
+			</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=539784&screen=info_player">No Swear</a>
+	</td>
+	<td>
+					сегодня в 18:30:49:<span class="grey small">450</span> ч.				</td><td><span class="timer">0:48:00</span></td>
+			<td>
+						<a class="sos-icon" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" onclick="$(&#39;#incomings_form&#39;).attr(&#39;action&#39;, &#39;/game.php?village=75653&amp;id=84633100&amp;screen=reqdef&#39;); $(&#39;#incomings_form&#39;).submit();"></a>
+					</td>
+		</tr>
+	<tr style="white-space:nowrap" class="nowrap  row_a">
+	<td>
+		<input name="command_ids[84632841]" type="hidden" value="true">
+			<input name="id_84632841" type="checkbox">
+			<span id="label[2]">
+			<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=84632841&type=other&screen=info_command" class="attack-icon"><span id="labelText[2]">ПРОПУСКАЮ - Таран, No Swear (611|492) , K46 - 1</span></a>
+								<a class="rename-icon" href="javascript:editToggle('label[2]', 'edit[2]')"></a>
+			</span>
+		<span id="edit[2]" style="display:none">
+			<input id="editInput[2]" size="18" value="ПРОПУСКАЮ - Таран, No Swear (611|492) , K46 - 1" onkeydown="if (event.keyCode == 13) { $(this).next().click(); return false; }">
+			<input type="button" value="ОК" onclick="editSubmit(&#39;label[2]&#39;, &#39;labelText[2]&#39;, &#39;edit[2]&#39;, &#39;editInput[2\]&#39;, &#39;/game.php?village=75653&amp;ajaxaction=edit_other_comment&amp;h=1ce5&amp;id=84632841&amp;screen=info_command&#39;)">
+		</span>
+	</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=76259&screen=overview">Деревня варваров (658|518) K56</a>
+			</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=539784&screen=info_player">No Swear</a>
+	</td>
+	<td>
+					сегодня в 18:45:54:<span class="grey small">326</span> ч.				</td><td><span class="timer">1:03:05</span></td>
+			<td>
+						<a class="sos-icon" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" onclick="$(&#39;#incomings_form&#39;).attr(&#39;action&#39;, &#39;/game.php?village=75653&amp;id=84632841&amp;screen=reqdef&#39;); $(&#39;#incomings_form&#39;).submit();"></a>
+					</td>
+		</tr>
+	<tr style="white-space:nowrap" class="nowrap  row_b">
+	<td>
+		<input name="command_ids[84552079]" type="hidden" value="true">
+			<input name="id_84552079" type="checkbox">
+			<span id="label[3]">
+			<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=84552079&type=other&screen=info_command" class="attack-icon"><span id="labelText[3]">ПРОПУСКАЮ - Таран, 05.1 - Доминик (572|481) , K45</span></a>
+								<a class="rename-icon" href="javascript:editToggle('label[3]', 'edit[3]')"></a>
+			</span>
+		<span id="edit[3]" style="display:none">
+			<input id="editInput[3]" size="18" value="ПРОПУСКАЮ - Таран, 05.1 - Доминик (572|481) , K45" onkeydown="if (event.keyCode == 13) { $(this).next().click(); return false; }">
+			<input type="button" value="ОК" onclick="editSubmit(&#39;label[3]&#39;, &#39;labelText[3]&#39;, &#39;edit[3]&#39;, &#39;editInput[3\]&#39;, &#39;/game.php?village=75653&amp;ajaxaction=edit_other_comment&amp;h=1ce5&amp;id=84552079&amp;screen=info_command&#39;)">
+		</span>
+	</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=77927&screen=overview">Деревня варваров (661|524) K56</a>
+			</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=145537&screen=info_player">juvekos</a>
+	</td>
+	<td>
+					сегодня в 18:47:21:<span class="grey small">097</span> ч.				</td><td><span class="timer">1:04:32</span></td>
+			<td>
+						<a class="sos-icon" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" onclick="$(&#39;#incomings_form&#39;).attr(&#39;action&#39;, &#39;/game.php?village=75653&amp;id=84552079&amp;screen=reqdef&#39;); $(&#39;#incomings_form&#39;).submit();"></a>
+					</td>
+		</tr>
+	<tr style="white-space:nowrap" class="nowrap  row_a">
+	<td>
+		<input name="command_ids[84632883]" type="hidden" value="true">
+			<input name="id_84632883" type="checkbox">
+			<span id="label[4]">
+			<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=84632883&type=other&screen=info_command" class="attack-icon"><span id="labelText[4]">ПРОПУСКАЮ - Таран, No Swear (611|511) , K56</span></a>
+								<a class="rename-icon" href="javascript:editToggle('label[4]', 'edit[4]')"></a>
+			</span>
+		<span id="edit[4]" style="display:none">
+			<input id="editInput[4]" size="18" value="ПРОПУСКАЮ - Таран, No Swear (611|511) , K56" onkeydown="if (event.keyCode == 13) { $(this).next().click(); return false; }">
+			<input type="button" value="ОК" onclick="editSubmit(&#39;label[4]&#39;, &#39;labelText[4]&#39;, &#39;edit[4]&#39;, &#39;editInput[4\]&#39;, &#39;/game.php?village=75653&amp;ajaxaction=edit_other_comment&amp;h=1ce5&amp;id=84632883&amp;screen=info_command&#39;)">
+		</span>
+	</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=76182&screen=overview">Деревня варваров (661|531) K56</a>
+			</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=539784&screen=info_player">No Swear</a>
+	</td>
+	<td>
+					сегодня в 18:51:11:<span class="grey small">725</span> ч.				</td><td><span class="timer">1:08:22</span></td>
+			<td>
+						<a class="sos-icon" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" onclick="$(&#39;#incomings_form&#39;).attr(&#39;action&#39;, &#39;/game.php?village=75653&amp;id=84632883&amp;screen=reqdef&#39;); $(&#39;#incomings_form&#39;).submit();"></a>
+					</td>
+		</tr>
+	<tr style="white-space:nowrap" class="nowrap  row_b">
+	<td>
+		<input name="command_ids[84555977]" type="hidden" value="true">
+			<input name="id_84555977" type="checkbox">
+			<span id="label[5]">
+			<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=84555977&type=other&screen=info_command" class="attack-icon"><span id="labelText[5]">ПРОПУСКАЮ - Таран, 05 - Пятерочка (574|484) , K45</span></a>
+								<a class="rename-icon" href="javascript:editToggle('label[5]', 'edit[5]')"></a>
+			</span>
+		<span id="edit[5]" style="display:none">
+			<input id="editInput[5]" size="18" value="ПРОПУСКАЮ - Таран, 05 - Пятерочка (574|484) , K45" onkeydown="if (event.keyCode == 13) { $(this).next().click(); return false; }">
+			<input type="button" value="ОК" onclick="editSubmit(&#39;label[5]&#39;, &#39;labelText[5]&#39;, &#39;edit[5]&#39;, &#39;editInput[5\]&#39;, &#39;/game.php?village=75653&amp;ajaxaction=edit_other_comment&amp;h=1ce5&amp;id=84555977&amp;screen=info_command&#39;)">
+		</span>
+	</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=78428&screen=overview">Деревня варваров (663|525) K56</a>
+			</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=145537&screen=info_player">juvekos</a>
+	</td>
+	<td>
+					сегодня в 18:58:12:<span class="grey small">300</span> ч.				</td><td><span class="timer">1:15:23</span></td>
+			<td>
+						<a class="sos-icon" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" onclick="$(&#39;#incomings_form&#39;).attr(&#39;action&#39;, &#39;/game.php?village=75653&amp;id=84555977&amp;screen=reqdef&#39;); $(&#39;#incomings_form&#39;).submit();"></a>
+					</td>
+		</tr>
+	<tr style="white-space:nowrap" class="nowrap  row_a">
+	<td>
+		<input name="command_ids[84552094]" type="hidden" value="true">
+			<input name="id_84552094" type="checkbox">
+			<span id="label[6]">
+			<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=84552094&type=other&screen=info_command" class="attack-icon"><span id="labelText[6]">ПРОПУСКАЮ - Таран, 05.2 - DominikRrr (571|481) , K45</span></a>
+								<a class="rename-icon" href="javascript:editToggle('label[6]', 'edit[6]')"></a>
+			</span>
+		<span id="edit[6]" style="display:none">
+			<input id="editInput[6]" size="18" value="ПРОПУСКАЮ - Таран, 05.2 - DominikRrr (571|481) , K45" onkeydown="if (event.keyCode == 13) { $(this).next().click(); return false; }">
+			<input type="button" value="ОК" onclick="editSubmit(&#39;label[6]&#39;, &#39;labelText[6]&#39;, &#39;edit[6]&#39;, &#39;editInput[6\]&#39;, &#39;/game.php?village=75653&amp;ajaxaction=edit_other_comment&amp;h=1ce5&amp;id=84552094&amp;screen=info_command&#39;)">
+		</span>
+	</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75405&screen=overview">Деревня варваров (659|527) K56</a>
+			</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=145537&screen=info_player">juvekos</a>
+	</td>
+	<td>
+					сегодня в 19:01:28:<span class="grey small">754</span> ч.				</td><td><span class="timer">1:18:39</span></td>
+			<td>
+						<a class="sos-icon" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" onclick="$(&#39;#incomings_form&#39;).attr(&#39;action&#39;, &#39;/game.php?village=75653&amp;id=84552094&amp;screen=reqdef&#39;); $(&#39;#incomings_form&#39;).submit();"></a>
+					</td>
+		</tr>
+	<tr style="white-space:nowrap" class="nowrap  row_b">
+	<td>
+		<input name="command_ids[84632938]" type="hidden" value="true">
+			<input name="id_84632938" type="checkbox">
+			<span id="label[7]">
+			<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=84632938&type=other&screen=info_command" class="attack-icon"><span id="labelText[7]">ПРОПУСКАЮ - Таран, No Swear (613|493) , K46</span></a>
+								<a class="rename-icon" href="javascript:editToggle('label[7]', 'edit[7]')"></a>
+			</span>
+		<span id="edit[7]" style="display:none">
+			<input id="editInput[7]" size="18" value="ПРОПУСКАЮ - Таран, No Swear (613|493) , K46" onkeydown="if (event.keyCode == 13) { $(this).next().click(); return false; }">
+			<input type="button" value="ОК" onclick="editSubmit(&#39;label[7]&#39;, &#39;labelText[7]&#39;, &#39;edit[7]&#39;, &#39;editInput[7\]&#39;, &#39;/game.php?village=75653&amp;ajaxaction=edit_other_comment&amp;h=1ce5&amp;id=84632938&amp;screen=info_command&#39;)">
+		</span>
+	</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=76583&screen=overview">Деревня варваров (660|520) K56</a>
+			</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=539784&screen=info_player">No Swear</a>
+	</td>
+	<td>
+					сегодня в 19:03:36:<span class="grey small">057</span> ч.				</td><td><span class="timer">1:20:47</span></td>
+			<td>
+						<a class="sos-icon" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" onclick="$(&#39;#incomings_form&#39;).attr(&#39;action&#39;, &#39;/game.php?village=75653&amp;id=84632938&amp;screen=reqdef&#39;); $(&#39;#incomings_form&#39;).submit();"></a>
+					</td>
+		</tr>
+	<tr style="white-space:nowrap" class="nowrap  row_a">
+	<td>
+		<input name="command_ids[84552091]" type="hidden" value="true">
+			<input name="id_84552091" type="checkbox">
+			<span id="label[8]">
+			<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=84552091&type=other&screen=info_command" class="attack-icon"><span id="labelText[8]">ПРОПУСКАЮ - Таран, 05.2 - DominikRrr (571|481) , K45</span></a>
+								<a class="rename-icon" href="javascript:editToggle('label[8]', 'edit[8]')"></a>
+			</span>
+		<span id="edit[8]" style="display:none">
+			<input id="editInput[8]" size="18" value="ПРОПУСКАЮ - Таран, 05.2 - DominikRrr (571|481) , K45" onkeydown="if (event.keyCode == 13) { $(this).next().click(); return false; }">
+			<input type="button" value="ОК" onclick="editSubmit(&#39;label[8]&#39;, &#39;labelText[8]&#39;, &#39;edit[8]&#39;, &#39;editInput[8\]&#39;, &#39;/game.php?village=75653&amp;ajaxaction=edit_other_comment&amp;h=1ce5&amp;id=84552091&amp;screen=info_command&#39;)">
+		</span>
+	</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=77927&screen=overview">Деревня варваров (661|524) K56</a>
+			</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=145537&screen=info_player">juvekos</a>
+	</td>
+	<td>
+					сегодня в 19:14:42:<span class="grey small">551</span> ч.				</td><td><span class="timer">1:31:53</span></td>
+			<td>
+						<a class="sos-icon" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" onclick="$(&#39;#incomings_form&#39;).attr(&#39;action&#39;, &#39;/game.php?village=75653&amp;id=84552091&amp;screen=reqdef&#39;); $(&#39;#incomings_form&#39;).submit();"></a>
+					</td>
+		</tr>
+	<tr style="white-space:nowrap" class="nowrap  row_b">
+	<td>
+		<input name="command_ids[84632839]" type="hidden" value="true">
+			<input name="id_84632839" type="checkbox">
+			<span id="label[9]">
+			<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=84632839&type=other&screen=info_command" class="attack-icon"><span id="labelText[9]">ПРОПУСКАЮ - Таран, No Swear (608|491) , K46</span></a>
+								<a class="rename-icon" href="javascript:editToggle('label[9]', 'edit[9]')"></a>
+			</span>
+		<span id="edit[9]" style="display:none">
+			<input id="editInput[9]" size="18" value="ПРОПУСКАЮ - Таран, No Swear (608|491) , K46" onkeydown="if (event.keyCode == 13) { $(this).next().click(); return false; }">
+			<input type="button" value="ОК" onclick="editSubmit(&#39;label[9]&#39;, &#39;labelText[9]&#39;, &#39;edit[9]&#39;, &#39;editInput[9\]&#39;, &#39;/game.php?village=75653&amp;ajaxaction=edit_other_comment&amp;h=1ce5&amp;id=84632839&amp;screen=info_command&#39;)">
+		</span>
+	</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=76259&screen=overview">Деревня варваров (658|518) K56</a>
+			</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=539784&screen=info_player">No Swear</a>
+	</td>
+	<td>
+					сегодня в 20:18:54:<span class="grey small">888</span> ч.				</td><td><span class="timer">2:36:05</span></td>
+			<td>
+						<a class="sos-icon" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" onclick="$(&#39;#incomings_form&#39;).attr(&#39;action&#39;, &#39;/game.php?village=75653&amp;id=84632839&amp;screen=reqdef&#39;); $(&#39;#incomings_form&#39;).submit();"></a>
+					</td>
+		</tr>
+	<tr style="white-space:nowrap" class="nowrap  selected row_a">
+	<td>
+		<input name="command_ids[84552098]" type="hidden" value="true">
+			<input name="id_84552098" type="checkbox">
+			<span id="label[10]">
+			<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=84552098&type=other&screen=info_command" class="attack-icon"><span id="labelText[10]">ПРОПУСКАЮ - Таран, 05.2 - DominikRrr (571|481) , K45</span></a>
+								<a class="rename-icon" href="javascript:editToggle('label[10]', 'edit[10]')"></a>
+			</span>
+		<span id="edit[10]" style="display:none">
+			<input id="editInput[10]" size="18" value="ПРОПУСКАЮ - Таран, 05.2 - DominikRrr (571|481) , K45" onkeydown="if (event.keyCode == 13) { $(this).next().click(); return false; }">
+			<input type="button" value="ОК" onclick="editSubmit(&#39;label[10]&#39;, &#39;labelText[10]&#39;, &#39;edit[10]&#39;, &#39;editInput[10\]&#39;, &#39;/game.php?village=75653&amp;ajaxaction=edit_other_comment&amp;h=1ce5&amp;id=84552098&amp;screen=info_command&#39;)">
+		</span>
+	</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=overview">Деревня варваров (660|531) K56</a>
+			</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=145537&screen=info_player">juvekos</a>
+	</td>
+	<td>
+					сегодня в 20:25:12:<span class="grey small">519</span> ч.				</td><td><span class="timer">2:42:23</span></td>
+			<td>
+						<a class="sos-icon" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" onclick="$(&#39;#incomings_form&#39;).attr(&#39;action&#39;, &#39;/game.php?village=75653&amp;id=84552098&amp;screen=reqdef&#39;); $(&#39;#incomings_form&#39;).submit();"></a>
+					</td>
+		</tr>
+	<tr style="white-space:nowrap" class="nowrap  row_b">
+	<td>
+		<input name="command_ids[84555999]" type="hidden" value="true">
+			<input name="id_84555999" type="checkbox">
+			<span id="label[11]">
+			<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=84555999&type=other&screen=info_command" class="attack-icon"><span id="labelText[11]">ПРОПУСКАЮ - Таран, 05.1 - Доминик (572|481) , K45</span></a>
+								<a class="rename-icon" href="javascript:editToggle('label[11]', 'edit[11]')"></a>
+			</span>
+		<span id="edit[11]" style="display:none">
+			<input id="editInput[11]" size="18" value="ПРОПУСКАЮ - Таран, 05.1 - Доминик (572|481) , K45" onkeydown="if (event.keyCode == 13) { $(this).next().click(); return false; }">
+			<input type="button" value="ОК" onclick="editSubmit(&#39;label[11]&#39;, &#39;labelText[11]&#39;, &#39;edit[11]&#39;, &#39;editInput[11\]&#39;, &#39;/game.php?village=75653&amp;ajaxaction=edit_other_comment&amp;h=1ce5&amp;id=84555999&amp;screen=info_command&#39;)">
+		</span>
+	</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=78428&screen=overview">Деревня варваров (663|525) K56</a>
+			</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=145537&screen=info_player">juvekos</a>
+	</td>
+	<td>
+					сегодня в 20:31:04:<span class="grey small">439</span> ч.				</td><td><span class="timer">2:48:15</span></td>
+			<td>
+						<a class="sos-icon" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" onclick="$(&#39;#incomings_form&#39;).attr(&#39;action&#39;, &#39;/game.php?village=75653&amp;id=84555999&amp;screen=reqdef&#39;); $(&#39;#incomings_form&#39;).submit();"></a>
+					</td>
+		</tr>
+	<tr style="white-space:nowrap" class="nowrap  row_a">
+	<td>
+		<input name="command_ids[84632987]" type="hidden" value="true">
+			<input name="id_84632987" type="checkbox">
+			<span id="label[12]">
+			<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=84632987&type=other&screen=info_command" class="attack-icon"><span id="labelText[12]">ПРОПУСКАЮ - Таран, No Swear (613|493) , K46</span></a>
+								<a class="rename-icon" href="javascript:editToggle('label[12]', 'edit[12]')"></a>
+			</span>
+		<span id="edit[12]" style="display:none">
+			<input id="editInput[12]" size="18" value="ПРОПУСКАЮ - Таран, No Swear (613|493) , K46" onkeydown="if (event.keyCode == 13) { $(this).next().click(); return false; }">
+			<input type="button" value="ОК" onclick="editSubmit(&#39;label[12]&#39;, &#39;labelText[12]&#39;, &#39;edit[12]&#39;, &#39;editInput[12\]&#39;, &#39;/game.php?village=75653&amp;ajaxaction=edit_other_comment&amp;h=1ce5&amp;id=84632987&amp;screen=info_command&#39;)">
+		</span>
+	</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=77927&screen=overview">Деревня варваров (661|524) K56</a>
+			</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=539784&screen=info_player">No Swear</a>
+	</td>
+	<td>
+					сегодня в 20:32:12:<span class="grey small">480</span> ч.				</td><td><span class="timer">2:49:23</span></td>
+			<td>
+						<a class="sos-icon" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" onclick="$(&#39;#incomings_form&#39;).attr(&#39;action&#39;, &#39;/game.php?village=75653&amp;id=84632987&amp;screen=reqdef&#39;); $(&#39;#incomings_form&#39;).submit();"></a>
+					</td>
+		</tr>
+	<tr style="white-space:nowrap" class="nowrap  row_b">
+	<td>
+		<input name="command_ids[84632845]" type="hidden" value="true">
+			<input name="id_84632845" type="checkbox">
+			<span id="label[13]">
+			<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=84632845&type=other&screen=info_command" class="attack-icon"><span id="labelText[13]">ПРОПУСКАЮ - Таран, No Swear (611|492) , K46 - 2</span></a>
+								<a class="rename-icon" href="javascript:editToggle('label[13]', 'edit[13]')"></a>
+			</span>
+		<span id="edit[13]" style="display:none">
+			<input id="editInput[13]" size="18" value="ПРОПУСКАЮ - Таран, No Swear (611|492) , K46 - 2" onkeydown="if (event.keyCode == 13) { $(this).next().click(); return false; }">
+			<input type="button" value="ОК" onclick="editSubmit(&#39;label[13]&#39;, &#39;labelText[13]&#39;, &#39;edit[13]&#39;, &#39;editInput[13\]&#39;, &#39;/game.php?village=75653&amp;ajaxaction=edit_other_comment&amp;h=1ce5&amp;id=84632845&amp;screen=info_command&#39;)">
+		</span>
+	</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=76215&screen=overview">Деревня варваров (654|531) K56</a>
+			</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=539784&screen=info_player">No Swear</a>
+	</td>
+	<td>
+					сегодня в 20:56:19:<span class="grey small">210</span> ч.				</td><td><span class="timer">3:13:30</span></td>
+			<td>
+						<a class="sos-icon" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" onclick="$(&#39;#incomings_form&#39;).attr(&#39;action&#39;, &#39;/game.php?village=75653&amp;id=84632845&amp;screen=reqdef&#39;); $(&#39;#incomings_form&#39;).submit();"></a>
+					</td>
+		</tr>
+	<tr style="white-space:nowrap" class="nowrap  row_a">
+	<td>
+		<input name="command_ids[84633016]" type="hidden" value="true">
+			<input name="id_84633016" type="checkbox">
+			<span id="label[14]">
+			<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=84633016&type=other&screen=info_command" class="attack-icon"><span id="labelText[14]">ПРОПУСКАЮ - Таран, No Swear (609|491) , K46</span></a>
+								<a class="rename-icon" href="javascript:editToggle('label[14]', 'edit[14]')"></a>
+			</span>
+		<span id="edit[14]" style="display:none">
+			<input id="editInput[14]" size="18" value="ПРОПУСКАЮ - Таран, No Swear (609|491) , K46" onkeydown="if (event.keyCode == 13) { $(this).next().click(); return false; }">
+			<input type="button" value="ОК" onclick="editSubmit(&#39;label[14]&#39;, &#39;labelText[14]&#39;, &#39;edit[14]&#39;, &#39;editInput[14\]&#39;, &#39;/game.php?village=75653&amp;ajaxaction=edit_other_comment&amp;h=1ce5&amp;id=84633016&amp;screen=info_command&#39;)">
+		</span>
+	</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=76583&screen=overview">Деревня варваров (660|520) K56</a>
+			</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=539784&screen=info_player">No Swear</a>
+	</td>
+	<td>
+					сегодня в 21:19:02:<span class="grey small">540</span> ч.				</td><td><span class="timer">3:36:13</span></td>
+			<td>
+						<a class="sos-icon" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" onclick="$(&#39;#incomings_form&#39;).attr(&#39;action&#39;, &#39;/game.php?village=75653&amp;id=84633016&amp;screen=reqdef&#39;); $(&#39;#incomings_form&#39;).submit();"></a>
+					</td>
+		</tr>
+	<tr style="white-space:nowrap" class="nowrap  row_b">
+	<td>
+		<input name="command_ids[84633094]" type="hidden" value="true">
+			<input name="id_84633094" type="checkbox">
+			<span id="label[15]">
+			<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=84633094&type=other&screen=info_command" class="attack-icon"><span id="labelText[15]">ПРОПУСКАЮ - Таран, No Swear (618|493) , K46 - 3</span></a>
+								<a class="rename-icon" href="javascript:editToggle('label[15]', 'edit[15]')"></a>
+			</span>
+		<span id="edit[15]" style="display:none">
+			<input id="editInput[15]" size="18" value="ПРОПУСКАЮ - Таран, No Swear (618|493) , K46 - 3" onkeydown="if (event.keyCode == 13) { $(this).next().click(); return false; }">
+			<input type="button" value="ОК" onclick="editSubmit(&#39;label[15]&#39;, &#39;labelText[15]&#39;, &#39;edit[15]&#39;, &#39;editInput[15\]&#39;, &#39;/game.php?village=75653&amp;ajaxaction=edit_other_comment&amp;h=1ce5&amp;id=84633094&amp;screen=info_command&#39;)">
+		</span>
+	</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=76946&screen=overview">Деревня варваров (661|535) K56</a>
+			</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=539784&screen=info_player">No Swear</a>
+	</td>
+	<td>
+					сегодня в 22:03:29:<span class="grey small">919</span> ч.				</td><td><span class="timer">4:20:40</span></td>
+			<td>
+						<a class="sos-icon" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" onclick="$(&#39;#incomings_form&#39;).attr(&#39;action&#39;, &#39;/game.php?village=75653&amp;id=84633094&amp;screen=reqdef&#39;); $(&#39;#incomings_form&#39;).submit();"></a>
+					</td>
+		</tr>
+	<tr style="white-space:nowrap" class="nowrap  row_a">
+	<td>
+		<input name="command_ids[84632820]" type="hidden" value="true">
+			<input name="id_84632820" type="checkbox">
+			<span id="label[16]">
+			<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=84632820&type=other&screen=info_command" class="attack-icon"><span id="labelText[16]">ПРОПУСКАЮ - Таран, No Swear (608|491) , K46</span></a>
+								<a class="rename-icon" href="javascript:editToggle('label[16]', 'edit[16]')"></a>
+			</span>
+		<span id="edit[16]" style="display:none">
+			<input id="editInput[16]" size="18" value="ПРОПУСКАЮ - Таран, No Swear (608|491) , K46" onkeydown="if (event.keyCode == 13) { $(this).next().click(); return false; }">
+			<input type="button" value="ОК" onclick="editSubmit(&#39;label[16]&#39;, &#39;labelText[16]&#39;, &#39;edit[16]&#39;, &#39;editInput[16\]&#39;, &#39;/game.php?village=75653&amp;ajaxaction=edit_other_comment&amp;h=1ce5&amp;id=84632820&amp;screen=info_command&#39;)">
+		</span>
+	</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=76215&screen=overview">Деревня варваров (654|531) K56</a>
+			</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=539784&screen=info_player">No Swear</a>
+	</td>
+	<td>
+					сегодня в 22:22:43:<span class="grey small">616</span> ч.				</td><td><span class="timer">4:39:54</span></td>
+			<td>
+						<a class="sos-icon" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" onclick="$(&#39;#incomings_form&#39;).attr(&#39;action&#39;, &#39;/game.php?village=75653&amp;id=84632820&amp;screen=reqdef&#39;); $(&#39;#incomings_form&#39;).submit();"></a>
+					</td>
+		</tr>
+	<tr style="white-space:nowrap" class="nowrap  row_b">
+	<td>
+		<input name="command_ids[84552731]" type="hidden" value="true">
+			<input name="id_84552731" type="checkbox">
+			<span id="label[17]">
+			<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=84552731&type=other&screen=info_command" class="attack-icon"><span id="labelText[17]">ПРОПУСКАЮ - Таран, 60.2 - Тополог (559|475) , K45 - 1</span></a>
+								<a class="rename-icon" href="javascript:editToggle('label[17]', 'edit[17]')"></a>
+			</span>
+		<span id="edit[17]" style="display:none">
+			<input id="editInput[17]" size="18" value="ПРОПУСКАЮ - Таран, 60.2 - Тополог (559|475) , K45 - 1" onkeydown="if (event.keyCode == 13) { $(this).next().click(); return false; }">
+			<input type="button" value="ОК" onclick="editSubmit(&#39;label[17]&#39;, &#39;labelText[17]&#39;, &#39;edit[17]&#39;, &#39;editInput[17\]&#39;, &#39;/game.php?village=75653&amp;ajaxaction=edit_other_comment&amp;h=1ce5&amp;id=84552731&amp;screen=info_command&#39;)">
+		</span>
+	</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=73222&screen=overview">Деревня варваров (655|520) K56</a>
+			</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=145537&screen=info_player">juvekos</a>
+	</td>
+	<td>
+					сегодня в 22:35:13:<span class="grey small">040</span> ч.				</td><td><span class="timer">4:52:24</span></td>
+			<td>
+						<a class="sos-icon" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" onclick="$(&#39;#incomings_form&#39;).attr(&#39;action&#39;, &#39;/game.php?village=75653&amp;id=84552731&amp;screen=reqdef&#39;); $(&#39;#incomings_form&#39;).submit();"></a>
+					</td>
+		</tr>
+	<tr style="white-space:nowrap" class="nowrap  row_a">
+	<td>
+		<input name="command_ids[84633003]" type="hidden" value="true">
+			<input name="id_84633003" type="checkbox">
+			<span id="label[18]">
+			<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=84633003&type=other&screen=info_command" class="attack-icon"><span id="labelText[18]">ПРОПУСКАЮ - Таран, No Swear (609|491) , K46</span></a>
+								<a class="rename-icon" href="javascript:editToggle('label[18]', 'edit[18]')"></a>
+			</span>
+		<span id="edit[18]" style="display:none">
+			<input id="editInput[18]" size="18" value="ПРОПУСКАЮ - Таран, No Swear (609|491) , K46" onkeydown="if (event.keyCode == 13) { $(this).next().click(); return false; }">
+			<input type="button" value="ОК" onclick="editSubmit(&#39;label[18]&#39;, &#39;labelText[18]&#39;, &#39;edit[18]&#39;, &#39;editInput[18\]&#39;, &#39;/game.php?village=75653&amp;ajaxaction=edit_other_comment&amp;h=1ce5&amp;id=84633003&amp;screen=info_command&#39;)">
+		</span>
+	</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=77927&screen=overview">Деревня варваров (661|524) K56</a>
+			</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=539784&screen=info_player">No Swear</a>
+	</td>
+	<td>
+					сегодня в 22:46:08:<span class="grey small">817</span> ч.				</td><td><span class="timer">5:03:19</span></td>
+			<td>
+						<a class="sos-icon" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" onclick="$(&#39;#incomings_form&#39;).attr(&#39;action&#39;, &#39;/game.php?village=75653&amp;id=84633003&amp;screen=reqdef&#39;); $(&#39;#incomings_form&#39;).submit();"></a>
+					</td>
+		</tr>
+	<tr style="white-space:nowrap" class="nowrap  row_b">
+	<td>
+		<input name="command_ids[84632867]" type="hidden" value="true">
+			<input name="id_84632867" type="checkbox">
+			<span id="label[19]">
+			<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=84632867&type=other&screen=info_command" class="attack-icon"><span id="labelText[19]">ПРОПУСКАЮ - Таран, No Swear (611|492) , K46 - 3</span></a>
+								<a class="rename-icon" href="javascript:editToggle('label[19]', 'edit[19]')"></a>
+			</span>
+		<span id="edit[19]" style="display:none">
+			<input id="editInput[19]" size="18" value="ПРОПУСКАЮ - Таран, No Swear (611|492) , K46 - 3" onkeydown="if (event.keyCode == 13) { $(this).next().click(); return false; }">
+			<input type="button" value="ОК" onclick="editSubmit(&#39;label[19]&#39;, &#39;labelText[19]&#39;, &#39;edit[19]&#39;, &#39;editInput[19\]&#39;, &#39;/game.php?village=75653&amp;ajaxaction=edit_other_comment&amp;h=1ce5&amp;id=84632867&amp;screen=info_command&#39;)">
+		</span>
+	</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=76182&screen=overview">Деревня варваров (661|531) K56</a>
+			</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=539784&screen=info_player">No Swear</a>
+	</td>
+	<td>
+					сегодня в 23:37:30:<span class="grey small">842</span> ч.				</td><td><span class="timer">5:54:41</span></td>
+			<td>
+						<a class="sos-icon" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" onclick="$(&#39;#incomings_form&#39;).attr(&#39;action&#39;, &#39;/game.php?village=75653&amp;id=84632867&amp;screen=reqdef&#39;); $(&#39;#incomings_form&#39;).submit();"></a>
+					</td>
+		</tr>
+	<tr style="white-space:nowrap" class="nowrap  row_a">
+	<td>
+		<input name="command_ids[84632957]" type="hidden" value="true">
+			<input name="id_84632957" type="checkbox">
+			<span id="label[20]">
+			<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=84632957&type=other&screen=info_command" class="attack-icon"><span id="labelText[20]">ПРОПУСКАЮ - Таран, No Swear (613|493) , K46</span></a>
+								<a class="rename-icon" href="javascript:editToggle('label[20]', 'edit[20]')"></a>
+			</span>
+		<span id="edit[20]" style="display:none">
+			<input id="editInput[20]" size="18" value="ПРОПУСКАЮ - Таран, No Swear (613|493) , K46" onkeydown="if (event.keyCode == 13) { $(this).next().click(); return false; }">
+			<input type="button" value="ОК" onclick="editSubmit(&#39;label[20]&#39;, &#39;labelText[20]&#39;, &#39;edit[20]&#39;, &#39;editInput[20\]&#39;, &#39;/game.php?village=75653&amp;ajaxaction=edit_other_comment&amp;h=1ce5&amp;id=84632957&amp;screen=info_command&#39;)">
+		</span>
+	</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=76946&screen=overview">Деревня варваров (661|535) K56</a>
+			</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=539784&screen=info_player">No Swear</a>
+	</td>
+	<td>
+					сегодня в 23:51:07:<span class="grey small">472</span> ч.				</td><td><span class="timer">6:08:18</span></td>
+			<td>
+						<a class="sos-icon" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" onclick="$(&#39;#incomings_form&#39;).attr(&#39;action&#39;, &#39;/game.php?village=75653&amp;id=84632957&amp;screen=reqdef&#39;); $(&#39;#incomings_form&#39;).submit();"></a>
+					</td>
+		</tr>
+	<tr style="white-space:nowrap" class="nowrap  row_b">
+	<td>
+		<input name="command_ids[84632791]" type="hidden" value="true">
+			<input name="id_84632791" type="checkbox">
+			<span id="label[21]">
+			<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=84632791&type=other&screen=info_command" class="attack-icon"><span id="labelText[21]">ПРОПУСКАЮ - Таран, No Swear (608|491) , K46</span></a>
+								<a class="rename-icon" href="javascript:editToggle('label[21]', 'edit[21]')"></a>
+			</span>
+		<span id="edit[21]" style="display:none">
+			<input id="editInput[21]" size="18" value="ПРОПУСКАЮ - Таран, No Swear (608|491) , K46" onkeydown="if (event.keyCode == 13) { $(this).next().click(); return false; }">
+			<input type="button" value="ОК" onclick="editSubmit(&#39;label[21]&#39;, &#39;labelText[21]&#39;, &#39;edit[21]&#39;, &#39;editInput[21\]&#39;, &#39;/game.php?village=75653&amp;ajaxaction=edit_other_comment&amp;h=1ce5&amp;id=84632791&amp;screen=info_command&#39;)">
+		</span>
+	</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=76182&screen=overview">Деревня варваров (661|531) K56</a>
+			</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=539784&screen=info_player">No Swear</a>
+	</td>
+	<td>
+					завтра в 01:05:46:<span class="grey small">214</span>				</td><td><span class="timer">7:22:57</span></td>
+			<td>
+						<a class="sos-icon" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" onclick="$(&#39;#incomings_form&#39;).attr(&#39;action&#39;, &#39;/game.php?village=75653&amp;id=84632791&amp;screen=reqdef&#39;); $(&#39;#incomings_form&#39;).submit();"></a>
+					</td>
+		</tr>
+	<tr style="white-space:nowrap" class="nowrap  row_a">
+	<td>
+		<input name="command_ids[84633009]" type="hidden" value="true">
+			<input name="id_84633009" type="checkbox">
+			<span id="label[22]">
+			<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=84633009&type=other&screen=info_command" class="attack-icon"><span id="labelText[22]">ПРОПУСКАЮ - Таран, No Swear (609|491) , K46</span></a>
+								<a class="rename-icon" href="javascript:editToggle('label[22]', 'edit[22]')"></a>
+			</span>
+		<span id="edit[22]" style="display:none">
+			<input id="editInput[22]" size="18" value="ПРОПУСКАЮ - Таран, No Swear (609|491) , K46" onkeydown="if (event.keyCode == 13) { $(this).next().click(); return false; }">
+			<input type="button" value="ОК" onclick="editSubmit(&#39;label[22]&#39;, &#39;labelText[22]&#39;, &#39;edit[22]&#39;, &#39;editInput[22\]&#39;, &#39;/game.php?village=75653&amp;ajaxaction=edit_other_comment&amp;h=1ce5&amp;id=84633009&amp;screen=info_command&#39;)">
+		</span>
+	</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=76946&screen=overview">Деревня варваров (661|535) K56</a>
+			</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=539784&screen=info_player">No Swear</a>
+	</td>
+	<td>
+					завтра в 02:02:16:<span class="grey small">644</span>				</td><td><span class="timer">8:19:27</span></td>
+			<td>
+						<a class="sos-icon" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" onclick="$(&#39;#incomings_form&#39;).attr(&#39;action&#39;, &#39;/game.php?village=75653&amp;id=84633009&amp;screen=reqdef&#39;); $(&#39;#incomings_form&#39;).submit();"></a>
+					</td>
+		</tr>
+	<tr style="white-space:nowrap" class="nowrap  row_b">
+	<td>
+		<input name="command_ids[84552720]" type="hidden" value="true">
+			<input name="id_84552720" type="checkbox">
+			<span id="label[23]">
+			<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=84552720&type=other&screen=info_command" class="attack-icon"><span id="labelText[23]">ПРОПУСКАЮ - Таран, 60.1 - Тополог (551|475) , K45 - 2</span></a>
+								<a class="rename-icon" href="javascript:editToggle('label[23]', 'edit[23]')"></a>
+			</span>
+		<span id="edit[23]" style="display:none">
+			<input id="editInput[23]" size="18" value="ПРОПУСКАЮ - Таран, 60.1 - Тополог (551|475) , K45 - 2" onkeydown="if (event.keyCode == 13) { $(this).next().click(); return false; }">
+			<input type="button" value="ОК" onclick="editSubmit(&#39;label[23]&#39;, &#39;labelText[23]&#39;, &#39;edit[23]&#39;, &#39;editInput[23\]&#39;, &#39;/game.php?village=75653&amp;ajaxaction=edit_other_comment&amp;h=1ce5&amp;id=84552720&amp;screen=info_command&#39;)">
+		</span>
+	</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=73222&screen=overview">Деревня варваров (655|520) K56</a>
+			</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=145537&screen=info_player">juvekos</a>
+	</td>
+	<td>
+					завтра в 02:13:50:<span class="grey small">901</span>				</td><td><span class="timer">8:31:01</span></td>
+			<td>
+						<a class="sos-icon" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" onclick="$(&#39;#incomings_form&#39;).attr(&#39;action&#39;, &#39;/game.php?village=75653&amp;id=84552720&amp;screen=reqdef&#39;); $(&#39;#incomings_form&#39;).submit();"></a>
+					</td>
+		</tr>
+	<tr style="white-space:nowrap" class="nowrap  row_a">
+	<td>
+		<input name="command_ids[84508350]" type="hidden" value="true">
+			<input name="id_84508350" type="checkbox">
+			<span id="label[24]">
+			<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=84508350&type=other&screen=info_command" class="attack-icon"><span id="labelText[24]">Дворянин, ополиха (554|419) , K45</span></a>
+								<a class="rename-icon" href="javascript:editToggle('label[24]', 'edit[24]')"></a>
+			</span>
+		<span id="edit[24]" style="display:none">
+			<input id="editInput[24]" size="18" value="Дворянин, ополиха (554|419) , K45" onkeydown="if (event.keyCode == 13) { $(this).next().click(); return false; }">
+			<input type="button" value="ОК" onclick="editSubmit(&#39;label[24]&#39;, &#39;labelText[24]&#39;, &#39;edit[24]&#39;, &#39;editInput[24\]&#39;, &#39;/game.php?village=75653&amp;ajaxaction=edit_other_comment&amp;h=1ce5&amp;id=84508350&amp;screen=info_command&#39;)">
+		</span>
+	</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=93628&screen=overview">Деревня варваров (650|498) K46</a>
+			</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=1206619&screen=info_player">Vorholas</a>
+	</td>
+	<td>
+					завтра в 02:31:19:<span class="grey small">192</span>				</td><td><span class="timer">8:48:30</span></td>
+			<td>
+						<a class="sos-icon" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" onclick="$(&#39;#incomings_form&#39;).attr(&#39;action&#39;, &#39;/game.php?village=75653&amp;id=84508350&amp;screen=reqdef&#39;); $(&#39;#incomings_form&#39;).submit();"></a>
+					</td>
+		</tr>
+	<tr style="white-space:nowrap" class="nowrap  row_b">
+	<td>
+		<input name="command_ids[84556776]" type="hidden" value="true">
+			<input name="id_84556776" type="checkbox">
+			<span id="label[25]">
+			<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=84556776&type=other&screen=info_command" class="attack-icon"><span id="labelText[25]">ПРОПУСКАЮ - Таран, 60.2 - Тополог (559|475) , K45 - 3</span></a>
+								<a class="rename-icon" href="javascript:editToggle('label[25]', 'edit[25]')"></a>
+			</span>
+		<span id="edit[25]" style="display:none">
+			<input id="editInput[25]" size="18" value="ПРОПУСКАЮ - Таран, 60.2 - Тополог (559|475) , K45 - 3" onkeydown="if (event.keyCode == 13) { $(this).next().click(); return false; }">
+			<input type="button" value="ОК" onclick="editSubmit(&#39;label[25]&#39;, &#39;labelText[25]&#39;, &#39;edit[25]&#39;, &#39;editInput[25\]&#39;, &#39;/game.php?village=75653&amp;ajaxaction=edit_other_comment&amp;h=1ce5&amp;id=84556776&amp;screen=info_command&#39;)">
+		</span>
+	</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=77927&screen=overview">Деревня варваров (661|524) K56</a>
+			</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=145537&screen=info_player">juvekos</a>
+	</td>
+	<td>
+					завтра в 02:43:55:<span class="grey small">197</span>				</td><td><span class="timer">9:01:06</span></td>
+			<td>
+						<a class="sos-icon" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" onclick="$(&#39;#incomings_form&#39;).attr(&#39;action&#39;, &#39;/game.php?village=75653&amp;id=84556776&amp;screen=reqdef&#39;); $(&#39;#incomings_form&#39;).submit();"></a>
+					</td>
+		</tr>
+	<tr style="white-space:nowrap" class="nowrap  row_a">
+	<td>
+		<input name="command_ids[84557951]" type="hidden" value="true">
+			<input name="id_84557951" type="checkbox">
+			<span id="label[26]">
+			<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=84557951&type=other&screen=info_command" class="attack-icon"><span id="labelText[26]">ПРОПУСКАЮ - Таран, Винтерфелл (563|462) , K45</span></a>
+								<a class="rename-icon" href="javascript:editToggle('label[26]', 'edit[26]')"></a>
+			</span>
+		<span id="edit[26]" style="display:none">
+			<input id="editInput[26]" size="18" value="ПРОПУСКАЮ - Таран, Винтерфелл (563|462) , K45" onkeydown="if (event.keyCode == 13) { $(this).next().click(); return false; }">
+			<input type="button" value="ОК" onclick="editSubmit(&#39;label[26]&#39;, &#39;labelText[26]&#39;, &#39;edit[26]&#39;, &#39;editInput[26\]&#39;, &#39;/game.php?village=75653&amp;ajaxaction=edit_other_comment&amp;h=1ce5&amp;id=84557951&amp;screen=info_command&#39;)">
+		</span>
+	</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=76215&screen=overview">Деревня варваров (654|531) K56</a>
+			</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=569366&screen=info_player">Клеопатра</a>
+	</td>
+	<td>
+					завтра в 03:26:56:<span class="grey small">713</span>				</td><td><span class="timer">9:44:07</span></td>
+			<td>
+						<a class="sos-icon" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" onclick="$(&#39;#incomings_form&#39;).attr(&#39;action&#39;, &#39;/game.php?village=75653&amp;id=84557951&amp;screen=reqdef&#39;); $(&#39;#incomings_form&#39;).submit();"></a>
+					</td>
+		</tr>
+	<tr style="white-space:nowrap" class="nowrap  row_b">
+	<td>
+		<input name="command_ids[84556702]" type="hidden" value="true">
+			<input name="id_84556702" type="checkbox">
+			<span id="label[27]">
+			<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=84556702&type=other&screen=info_command" class="attack-icon"><span id="labelText[27]">ПРОПУСКАЮ - Таран, 60 - Topolog (553|476) , K45</span></a>
+								<a class="rename-icon" href="javascript:editToggle('label[27]', 'edit[27]')"></a>
+			</span>
+		<span id="edit[27]" style="display:none">
+			<input id="editInput[27]" size="18" value="ПРОПУСКАЮ - Таран, 60 - Topolog (553|476) , K45" onkeydown="if (event.keyCode == 13) { $(this).next().click(); return false; }">
+			<input type="button" value="ОК" onclick="editSubmit(&#39;label[27]&#39;, &#39;labelText[27]&#39;, &#39;edit[27]&#39;, &#39;editInput[27\]&#39;, &#39;/game.php?village=75653&amp;ajaxaction=edit_other_comment&amp;h=1ce5&amp;id=84556702&amp;screen=info_command&#39;)">
+		</span>
+	</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=76583&screen=overview">Деревня варваров (660|520) K56</a>
+			</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=145537&screen=info_player">juvekos</a>
+	</td>
+	<td>
+					завтра в 03:59:30:<span class="grey small">795</span>				</td><td><span class="timer">10:16:41</span></td>
+			<td>
+						<a class="sos-icon" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" onclick="$(&#39;#incomings_form&#39;).attr(&#39;action&#39;, &#39;/game.php?village=75653&amp;id=84556702&amp;screen=reqdef&#39;); $(&#39;#incomings_form&#39;).submit();"></a>
+					</td>
+		</tr>
+	<tr style="white-space:nowrap" class="nowrap  row_a">
+	<td>
+		<input name="command_ids[84556809]" type="hidden" value="true">
+			<input name="id_84556809" type="checkbox">
+			<span id="label[28]">
+			<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=84556809&type=other&screen=info_command" class="attack-icon"><span id="labelText[28]">СПАМ</span></a>
+								<a class="rename-icon" href="javascript:editToggle('label[28]', 'edit[28]')"></a>
+			</span>
+		<span id="edit[28]" style="display:none">
+			<input id="editInput[28]" size="18" value="СПАМ" onkeydown="if (event.keyCode == 13) { $(this).next().click(); return false; }">
+			<input type="button" value="ОК" onclick="editSubmit(&#39;label[28]&#39;, &#39;labelText[28]&#39;, &#39;edit[28]&#39;, &#39;editInput[28\]&#39;, &#39;/game.php?village=75653&amp;ajaxaction=edit_other_comment&amp;h=1ce5&amp;id=84556809&amp;screen=info_command&#39;)">
+		</span>
+	</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=78578&screen=overview">Деревня варваров (664|513) K56</a>
+			</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=145537&screen=info_player">juvekos</a>
+	</td>
+	<td>
+					завтра в 04:59:00:<span class="grey small">405</span>				</td><td><span class="timer">11:16:11</span></td>
+			<td>
+						<a class="sos-icon" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" onclick="$(&#39;#incomings_form&#39;).attr(&#39;action&#39;, &#39;/game.php?village=75653&amp;id=84556809&amp;screen=reqdef&#39;); $(&#39;#incomings_form&#39;).submit();"></a>
+					</td>
+		</tr>
+	<tr style="white-space:nowrap" class="nowrap  row_b">
+	<td>
+		<input name="command_ids[84553698]" type="hidden" value="true">
+			<input name="id_84553698" type="checkbox">
+			<span id="label[29]">
+			<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=84553698&type=other&screen=info_command" class="attack-icon"><span id="labelText[29]">Таран, 50 - Переезд (527|475) , K45</span></a>
+								<a class="rename-icon" href="javascript:editToggle('label[29]', 'edit[29]')"></a>
+			</span>
+		<span id="edit[29]" style="display:none">
+			<input id="editInput[29]" size="18" value="Таран, 50 - Переезд (527|475) , K45" onkeydown="if (event.keyCode == 13) { $(this).next().click(); return false; }">
+			<input type="button" value="ОК" onclick="editSubmit(&#39;label[29]&#39;, &#39;labelText[29]&#39;, &#39;edit[29]&#39;, &#39;editInput[29\]&#39;, &#39;/game.php?village=75653&amp;ajaxaction=edit_other_comment&amp;h=1ce5&amp;id=84553698&amp;screen=info_command&#39;)">
+		</span>
+	</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=70300&screen=overview">Деревня варваров (643|502) K56</a>
+			</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=145537&screen=info_player">juvekos</a>
+	</td>
+	<td>
+					завтра в 05:15:21:<span class="grey small">616</span>				</td><td><span class="timer">11:32:32</span></td>
+			<td>
+						<a class="sos-icon" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" onclick="$(&#39;#incomings_form&#39;).attr(&#39;action&#39;, &#39;/game.php?village=75653&amp;id=84553698&amp;screen=reqdef&#39;); $(&#39;#incomings_form&#39;).submit();"></a>
+					</td>
+		</tr>
+	<tr style="white-space:nowrap" class="nowrap  row_a">
+	<td>
+		<input name="command_ids[84556804]" type="hidden" value="true">
+			<input name="id_84556804" type="checkbox">
+			<span id="label[30]">
+			<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=84556804&type=other&screen=info_command" class="attack-icon"><span id="labelText[30]">СПАМ</span></a>
+								<a class="rename-icon" href="javascript:editToggle('label[30]', 'edit[30]')"></a>
+			</span>
+		<span id="edit[30]" style="display:none">
+			<input id="editInput[30]" size="18" value="СПАМ" onkeydown="if (event.keyCode == 13) { $(this).next().click(); return false; }">
+			<input type="button" value="ОК" onclick="editSubmit(&#39;label[30]&#39;, &#39;labelText[30]&#39;, &#39;edit[30]&#39;, &#39;editInput[30\]&#39;, &#39;/game.php?village=75653&amp;ajaxaction=edit_other_comment&amp;h=1ce5&amp;id=84556804&amp;screen=info_command&#39;)">
+		</span>
+	</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=78428&screen=overview">Деревня варваров (663|525) K56</a>
+			</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=145537&screen=info_player">juvekos</a>
+	</td>
+	<td>
+					завтра в 06:46:45:<span class="grey small">740</span>				</td><td><span class="timer">13:03:56</span></td>
+			<td>
+						<a class="sos-icon" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" onclick="$(&#39;#incomings_form&#39;).attr(&#39;action&#39;, &#39;/game.php?village=75653&amp;id=84556804&amp;screen=reqdef&#39;); $(&#39;#incomings_form&#39;).submit();"></a>
+					</td>
+		</tr>
+	<tr style="white-space:nowrap" class="nowrap  row_b">
+	<td>
+		<input name="command_ids[84556742]" type="hidden" value="true">
+			<input name="id_84556742" type="checkbox">
+			<span id="label[31]">
+			<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=84556742&type=other&screen=info_command" class="attack-icon"><span id="labelText[31]">ПРОПУСКАЮ - Таран, 60.1 - Тополог (551|475) , K45 - 3</span></a>
+								<a class="rename-icon" href="javascript:editToggle('label[31]', 'edit[31]')"></a>
+			</span>
+		<span id="edit[31]" style="display:none">
+			<input id="editInput[31]" size="18" value="ПРОПУСКАЮ - Таран, 60.1 - Тополог (551|475) , K45 - 3" onkeydown="if (event.keyCode == 13) { $(this).next().click(); return false; }">
+			<input type="button" value="ОК" onclick="editSubmit(&#39;label[31]&#39;, &#39;labelText[31]&#39;, &#39;edit[31]&#39;, &#39;editInput[31\]&#39;, &#39;/game.php?village=75653&amp;ajaxaction=edit_other_comment&amp;h=1ce5&amp;id=84556742&amp;screen=info_command&#39;)">
+		</span>
+	</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=76946&screen=overview">Деревня варваров (661|535) K56</a>
+			</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=145537&screen=info_player">juvekos</a>
+	</td>
+	<td>
+					завтра в 08:47:56:<span class="grey small">148</span>				</td><td><span class="timer">15:05:07</span></td>
+			<td>
+						<a class="sos-icon" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" onclick="$(&#39;#incomings_form&#39;).attr(&#39;action&#39;, &#39;/game.php?village=75653&amp;id=84556742&amp;screen=reqdef&#39;); $(&#39;#incomings_form&#39;).submit();"></a>
+					</td>
+		</tr>
+	<tr style="white-space:nowrap" class="nowrap  row_a">
+	<td>
+		<input name="command_ids[84553126]" type="hidden" value="true">
+			<input name="id_84553126" type="checkbox">
+			<span id="label[32]">
+			<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=84553126&type=other&screen=info_command" class="attack-icon"><span id="labelText[32]">ПРОПУСКАЮ - Таран, 61 - Не перегрыз... (542|477) , K45</span></a>
+								<a class="rename-icon" href="javascript:editToggle('label[32]', 'edit[32]')"></a>
+			</span>
+		<span id="edit[32]" style="display:none">
+			<input id="editInput[32]" size="18" value="ПРОПУСКАЮ - Таран, 61 - Не перегрыз... (542|477) , K45" onkeydown="if (event.keyCode == 13) { $(this).next().click(); return false; }">
+			<input type="button" value="ОК" onclick="editSubmit(&#39;label[32]&#39;, &#39;labelText[32]&#39;, &#39;edit[32]&#39;, &#39;editInput[32\]&#39;, &#39;/game.php?village=75653&amp;ajaxaction=edit_other_comment&amp;h=1ce5&amp;id=84553126&amp;screen=info_command&#39;)">
+		</span>
+	</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75405&screen=overview">Деревня варваров (659|527) K56</a>
+			</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=145537&screen=info_player">juvekos</a>
+	</td>
+	<td>
+					завтра в 09:14:14:<span class="grey small">646</span>				</td><td><span class="timer">15:31:25</span></td>
+			<td>
+						<a class="sos-icon" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" onclick="$(&#39;#incomings_form&#39;).attr(&#39;action&#39;, &#39;/game.php?village=75653&amp;id=84553126&amp;screen=reqdef&#39;); $(&#39;#incomings_form&#39;).submit();"></a>
+					</td>
+		</tr>
+	<tr style="white-space:nowrap" class="nowrap  row_b">
+	<td>
+		<input name="command_ids[84553157]" type="hidden" value="true">
+			<input name="id_84553157" type="checkbox">
+			<span id="label[33]">
+			<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=84553157&type=other&screen=info_command" class="attack-icon"><span id="labelText[33]">ПРОПУСКАЮ - Таран, 61.1 - 00000 (540|476) , K45</span></a>
+								<a class="rename-icon" href="javascript:editToggle('label[33]', 'edit[33]')"></a>
+			</span>
+		<span id="edit[33]" style="display:none">
+			<input id="editInput[33]" size="18" value="ПРОПУСКАЮ - Таран, 61.1 - 00000 (540|476) , K45" onkeydown="if (event.keyCode == 13) { $(this).next().click(); return false; }">
+			<input type="button" value="ОК" onclick="editSubmit(&#39;label[33]&#39;, &#39;labelText[33]&#39;, &#39;edit[33]&#39;, &#39;editInput[33\]&#39;, &#39;/game.php?village=75653&amp;ajaxaction=edit_other_comment&amp;h=1ce5&amp;id=84553157&amp;screen=info_command&#39;)">
+		</span>
+	</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75405&screen=overview">Деревня варваров (659|527) K56</a>
+			</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=145537&screen=info_player">juvekos</a>
+	</td>
+	<td>
+					завтра в 10:21:27:<span class="grey small">320</span>				</td><td><span class="timer">16:38:38</span></td>
+			<td>
+						<a class="sos-icon" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" onclick="$(&#39;#incomings_form&#39;).attr(&#39;action&#39;, &#39;/game.php?village=75653&amp;id=84553157&amp;screen=reqdef&#39;); $(&#39;#incomings_form&#39;).submit();"></a>
+					</td>
+		</tr>
+	<tr style="white-space:nowrap" class="nowrap  row_a">
+	<td>
+		<input name="command_ids[84551986]" type="hidden" value="true">
+			<input name="id_84551986" type="checkbox">
+			<span id="label[34]">
+			<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=84551986&type=other&screen=info_command" class="attack-icon"><span id="labelText[34]">ПРОПУСКАЮ - Таран, 52 - Нант (526|477) , K45 - 1</span></a>
+								<a class="rename-icon" href="javascript:editToggle('label[34]', 'edit[34]')"></a>
+			</span>
+		<span id="edit[34]" style="display:none">
+			<input id="editInput[34]" size="18" value="ПРОПУСКАЮ - Таран, 52 - Нант (526|477) , K45 - 1" onkeydown="if (event.keyCode == 13) { $(this).next().click(); return false; }">
+			<input type="button" value="ОК" onclick="editSubmit(&#39;label[34]&#39;, &#39;labelText[34]&#39;, &#39;edit[34]&#39;, &#39;editInput[34\]&#39;, &#39;/game.php?village=75653&amp;ajaxaction=edit_other_comment&amp;h=1ce5&amp;id=84551986&amp;screen=info_command&#39;)">
+		</span>
+	</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=73836&screen=overview">Деревня варваров (652|529) K56</a>
+			</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=145537&screen=info_player">juvekos</a>
+	</td>
+	<td>
+					завтра в 13:28:32:<span class="grey small">849</span>				</td><td><span class="timer">19:45:43</span></td>
+			<td>
+						<a class="sos-icon" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" onclick="$(&#39;#incomings_form&#39;).attr(&#39;action&#39;, &#39;/game.php?village=75653&amp;id=84551986&amp;screen=reqdef&#39;); $(&#39;#incomings_form&#39;).submit();"></a>
+					</td>
+		</tr>
+	<tr style="white-space:nowrap" class="nowrap  row_b">
+	<td>
+		<input name="command_ids[84551982]" type="hidden" value="true">
+			<input name="id_84551982" type="checkbox">
+			<span id="label[35]">
+			<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=84551982&type=other&screen=info_command" class="attack-icon"><span id="labelText[35]">ПРОПУСКАЮ - Таран, 51 - Поехали (525|475) , K45 - 1</span></a>
+								<a class="rename-icon" href="javascript:editToggle('label[35]', 'edit[35]')"></a>
+			</span>
+		<span id="edit[35]" style="display:none">
+			<input id="editInput[35]" size="18" value="ПРОПУСКАЮ - Таран, 51 - Поехали (525|475) , K45 - 1" onkeydown="if (event.keyCode == 13) { $(this).next().click(); return false; }">
+			<input type="button" value="ОК" onclick="editSubmit(&#39;label[35]&#39;, &#39;labelText[35]&#39;, &#39;edit[35]&#39;, &#39;editInput[35\]&#39;, &#39;/game.php?village=75653&amp;ajaxaction=edit_other_comment&amp;h=1ce5&amp;id=84551982&amp;screen=info_command&#39;)">
+		</span>
+	</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=73222&screen=overview">Деревня варваров (655|520) K56</a>
+			</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=145537&screen=info_player">juvekos</a>
+	</td>
+	<td>
+					завтра в 14:06:15:<span class="grey small">475</span>				</td><td><span class="timer">20:23:26</span></td>
+			<td>
+						<a class="sos-icon" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" onclick="$(&#39;#incomings_form&#39;).attr(&#39;action&#39;, &#39;/game.php?village=75653&amp;id=84551982&amp;screen=reqdef&#39;); $(&#39;#incomings_form&#39;).submit();"></a>
+					</td>
+		</tr>
+	<tr style="white-space:nowrap" class="nowrap  row_a">
+	<td>
+		<input name="command_ids[84556674]" type="hidden" value="true">
+			<input name="id_84556674" type="checkbox">
+			<span id="label[36]">
+			<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=84556674&type=other&screen=info_command" class="attack-icon"><span id="labelText[36]">ПРОПУСКАЮ - Таран, 52 - Нант (526|477) , K45 - 2</span></a>
+								<a class="rename-icon" href="javascript:editToggle('label[36]', 'edit[36]')"></a>
+			</span>
+		<span id="edit[36]" style="display:none">
+			<input id="editInput[36]" size="18" value="ПРОПУСКАЮ - Таран, 52 - Нант (526|477) , K45 - 2" onkeydown="if (event.keyCode == 13) { $(this).next().click(); return false; }">
+			<input type="button" value="ОК" onclick="editSubmit(&#39;label[36]&#39;, &#39;labelText[36]&#39;, &#39;edit[36]&#39;, &#39;editInput[36\]&#39;, &#39;/game.php?village=75653&amp;ajaxaction=edit_other_comment&amp;h=1ce5&amp;id=84556674&amp;screen=info_command&#39;)">
+		</span>
+	</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=76215&screen=overview">Деревня варваров (654|531) K56</a>
+			</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=145537&screen=info_player">juvekos</a>
+	</td>
+	<td>
+					завтра в 15:36:17:<span class="grey small">511</span>				</td><td><span class="timer">21:53:28</span></td>
+			<td>
+						<a class="sos-icon" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" onclick="$(&#39;#incomings_form&#39;).attr(&#39;action&#39;, &#39;/game.php?village=75653&amp;id=84556674&amp;screen=reqdef&#39;); $(&#39;#incomings_form&#39;).submit();"></a>
+					</td>
+		</tr>
+	<tr style="white-space:nowrap" class="nowrap  row_b">
+	<td>
+		<input name="command_ids[84556686]" type="hidden" value="true">
+			<input name="id_84556686" type="checkbox">
+			<span id="label[37]">
+			<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=84556686&type=other&screen=info_command" class="attack-icon"><span id="labelText[37]">ПРОПУСКАЮ - Таран, 53 - Тихий (526|474) , K45</span></a>
+								<a class="rename-icon" href="javascript:editToggle('label[37]', 'edit[37]')"></a>
+			</span>
+		<span id="edit[37]" style="display:none">
+			<input id="editInput[37]" size="18" value="ПРОПУСКАЮ - Таран, 53 - Тихий (526|474) , K45" onkeydown="if (event.keyCode == 13) { $(this).next().click(); return false; }">
+			<input type="button" value="ОК" onclick="editSubmit(&#39;label[37]&#39;, &#39;labelText[37]&#39;, &#39;edit[37]&#39;, &#39;editInput[37\]&#39;, &#39;/game.php?village=75653&amp;ajaxaction=edit_other_comment&amp;h=1ce5&amp;id=84556686&amp;screen=info_command&#39;)">
+		</span>
+	</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=76259&screen=overview">Деревня варваров (658|518) K56</a>
+			</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=145537&screen=info_player">juvekos</a>
+	</td>
+	<td>
+					завтра в 15:42:50:<span class="grey small">103</span>				</td><td><span class="timer">22:00:01</span></td>
+			<td>
+						<a class="sos-icon" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" onclick="$(&#39;#incomings_form&#39;).attr(&#39;action&#39;, &#39;/game.php?village=75653&amp;id=84556686&amp;screen=reqdef&#39;); $(&#39;#incomings_form&#39;).submit();"></a>
+					</td>
+		</tr>
+	<tr style="white-space:nowrap" class="nowrap  row_a">
+	<td>
+		<input name="command_ids[84556937]" type="hidden" value="true">
+			<input name="id_84556937" type="checkbox">
+			<span id="label[38]">
+			<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=84556937&type=other&screen=info_command" class="attack-icon"><span id="labelText[38]">ПРОПУСКАЮ - Таран, 51 - Поехали (525|475) , K45 - 2</span></a>
+								<a class="rename-icon" href="javascript:editToggle('label[38]', 'edit[38]')"></a>
+			</span>
+		<span id="edit[38]" style="display:none">
+			<input id="editInput[38]" size="18" value="ПРОПУСКАЮ - Таран, 51 - Поехали (525|475) , K45 - 2" onkeydown="if (event.keyCode == 13) { $(this).next().click(); return false; }">
+			<input type="button" value="ОК" onclick="editSubmit(&#39;label[38]&#39;, &#39;labelText[38]&#39;, &#39;edit[38]&#39;, &#39;editInput[38\]&#39;, &#39;/game.php?village=75653&amp;ajaxaction=edit_other_comment&amp;h=1ce5&amp;id=84556937&amp;screen=info_command&#39;)">
+		</span>
+	</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=79341&screen=overview">Деревня варваров (667|511) K56</a>
+			</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=145537&screen=info_player">juvekos</a>
+	</td>
+	<td>
+					завтра в 19:26:03:<span class="grey small">589</span>				</td><td><span class="timer">25:43:14</span></td>
+			<td>
+						<a class="sos-icon" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" onclick="$(&#39;#incomings_form&#39;).attr(&#39;action&#39;, &#39;/game.php?village=75653&amp;id=84556937&amp;screen=reqdef&#39;); $(&#39;#incomings_form&#39;).submit();"></a>
+					</td>
+		</tr>
+	<tr style="white-space:nowrap" class="nowrap  row_b">
+	<td>
+		<input name="command_ids[84556663]" type="hidden" value="true">
+			<input name="id_84556663" type="checkbox">
+			<span id="label[39]">
+			<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=84556663&type=other&screen=info_command" class="attack-icon"><span id="labelText[39]">ПРОПУСКАЮ - Таран, 51 - Поехали (525|475) , K45 - 3</span></a>
+								<a class="rename-icon" href="javascript:editToggle('label[39]', 'edit[39]')"></a>
+			</span>
+		<span id="edit[39]" style="display:none">
+			<input id="editInput[39]" size="18" value="ПРОПУСКАЮ - Таран, 51 - Поехали (525|475) , K45 - 3" onkeydown="if (event.keyCode == 13) { $(this).next().click(); return false; }">
+			<input type="button" value="ОК" onclick="editSubmit(&#39;label[39]&#39;, &#39;labelText[39]&#39;, &#39;edit[39]&#39;, &#39;editInput[39\]&#39;, &#39;/game.php?village=75653&amp;ajaxaction=edit_other_comment&amp;h=1ce5&amp;id=84556663&amp;screen=info_command&#39;)">
+		</span>
+	</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=76182&screen=overview">Деревня варваров (661|531) K56</a>
+			</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=145537&screen=info_player">juvekos</a>
+	</td>
+	<td>
+					завтра в 19:40:48:<span class="grey small">250</span>				</td><td><span class="timer">25:57:59</span></td>
+			<td>
+						<a class="sos-icon" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" onclick="$(&#39;#incomings_form&#39;).attr(&#39;action&#39;, &#39;/game.php?village=75653&amp;id=84556663&amp;screen=reqdef&#39;); $(&#39;#incomings_form&#39;).submit();"></a>
+					</td>
+		</tr>
+	<tr style="white-space:nowrap" class="nowrap  row_a">
+	<td>
+		<input name="command_ids[84508351]" type="hidden" value="true">
+			<input name="id_84508351" type="checkbox">
+			<span id="label[40]">
+			<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=84508351&type=other&screen=info_command" class="attack-icon"><span id="labelText[40]">Дворянин, Север (519|398) , K35</span></a>
+								<a class="rename-icon" href="javascript:editToggle('label[40]', 'edit[40]')"></a>
+			</span>
+		<span id="edit[40]" style="display:none">
+			<input id="editInput[40]" size="18" value="Дворянин, Север (519|398) , K35" onkeydown="if (event.keyCode == 13) { $(this).next().click(); return false; }">
+			<input type="button" value="ОК" onclick="editSubmit(&#39;label[40]&#39;, &#39;labelText[40]&#39;, &#39;edit[40]&#39;, &#39;editInput[40\]&#39;, &#39;/game.php?village=75653&amp;ajaxaction=edit_other_comment&amp;h=1ce5&amp;id=84508351&amp;screen=info_command&#39;)">
+		</span>
+	</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=93628&screen=overview">Деревня варваров (650|498) K46</a>
+			</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=1206619&screen=info_player">Vorholas</a>
+	</td>
+	<td>
+					06.07. в 02:08:19:<span class="grey small">437</span> ч.				</td><td><span class="timer">32:25:30</span></td>
+			<td>
+						<a class="sos-icon" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" onclick="$(&#39;#incomings_form&#39;).attr(&#39;action&#39;, &#39;/game.php?village=75653&amp;id=84508351&amp;screen=reqdef&#39;); $(&#39;#incomings_form&#39;).submit();"></a>
+					</td>
+		</tr>
+	<tr style="white-space:nowrap" class="nowrap  row_b">
+	<td>
+		<input name="command_ids[84624574]" type="hidden" value="true">
+			<input name="id_84624574" type="checkbox">
+			<span id="label[41]">
+			<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=84624574&type=other&screen=info_command" class="attack-icon"><span id="labelText[41]">Таран, ***07 (560|432) , K45</span></a>
+								<a class="rename-icon" href="javascript:editToggle('label[41]', 'edit[41]')"></a>
+			</span>
+		<span id="edit[41]" style="display:none">
+			<input id="editInput[41]" size="18" value="Таран, ***07 (560|432) , K45" onkeydown="if (event.keyCode == 13) { $(this).next().click(); return false; }">
+			<input type="button" value="ОК" onclick="editSubmit(&#39;label[41]&#39;, &#39;labelText[41]&#39;, &#39;edit[41]&#39;, &#39;editInput[41\]&#39;, &#39;/game.php?village=75653&amp;ajaxaction=edit_other_comment&amp;h=1ce5&amp;id=84624574&amp;screen=info_command&#39;)">
+		</span>
+	</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=73029&screen=overview">Деревня варваров (655|509) K56</a>
+			</td>
+	<td>
+		<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&id=1206619&screen=info_player">Vorholas</a>
+	</td>
+	<td>
+					06.07. в 03:26:41:<span class="grey small">070</span> ч.				</td><td><span class="timer">33:43:52</span></td>
+			<td>
+						<a class="sos-icon" href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" onclick="$(&#39;#incomings_form&#39;).attr(&#39;action&#39;, &#39;/game.php?village=75653&amp;id=84624574&amp;screen=reqdef&#39;); $(&#39;#incomings_form&#39;).submit();"></a>
+					</td>
+		</tr>
+	<tr>
+		<th style="white-space:nowrap;">
+			<input name="all" type="checkbox" class="selectAll" id="select_all" onclick="selectAll(this.form, this.checked)"> <label for="select_all">выбрать все</label>
+		</th>
+				<th colspan="6">
+														<input type="button" onclick="$(&#39;#incomings_form&#39;).attr(&#39;action&#39;, &#39;/game.php?village=75653&amp;screen=reqdef&#39;); $(&#39;#incomings_form&#39;).submit();" value="Запросить подкрепление" name="reqdef">
+					</th>
+	</tr>
+</tbody></table>
+
+</form>
+
+
+<script type="text/javascript">
+//<![CDATA[
+	$('document').ready(function() {
+		UI.ToolTip('.icon_village_notes');
+	});
+//]]>
+</script>
+
+
+<form action="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=incomings&action=change_page_size&h=cffe&screen=overview_villages" method="post">
+    <table class="vis">
+        <tbody><tr><th colspan="2">Манёвров на странице:</th><td><input name="page_size" type="text" style="width: 50px" value="1000"></td><td><input type="submit" value="ОК"></td></tr>
+    </tbody></table>
+</form>
+
+</div>
+
+
+	                                </td></tr>
+								</tbody></table>
+							</td>
+						</tr>
+					</tbody></table>
+				</td>
+			</tr>
+		</tbody></table>
+
+		<p class="server_info">
+			сформировано за 601 мс  <b>|</b> время сервера: <span id="serverTime">17:42:50</span> <span id="serverDate">04/07/2013</span>
+					</p>
+
+		<p></p>
+	</td>
+	<td class="bg_right" id="SkyScraperAdCell">
+		<div class="bg_right"> </div>
+			</td>
+</tr>
+
+						<tr>
+				<td class="bg_leftborder"> </td>
+				<td></td>
+				<td class="bg_rightborder"> </td>
+			</tr>
+			<tr class="newStyleOnly">
+				<td class="bg_bottomleft">&nbsp;</td>
+				<td class="bg_bottomcenter">&nbsp;</td>
+				<td class="bg_bottomright">&nbsp;</td>
+			</tr>
+						</tbody></table><!-- .main_layout -->
+					
+<script type="text/javascript">
+//<![CDATA[
+	$(document).ready(function() { 
+		startTimer(); 
+
+		if (typeof QuestArrows != 'undefined') {
+			QuestArrows.init();
+		}
+	});
+
+    //]]>
+</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1897727-9']);
+  _gaq.push(['_trackPageview']);
+  _gaq.push(['_gat._anonymizeIp']);
+
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+  })();
+
+</script>
+
+		
+				<div id="world_selection_clicktrap" class="evt-world-selection-toggle">
+		</div>
+		<div id="world_selection_popup">
+			<div class="servers-list-top"></div>
+			<div id="servers-list-block">
+			
+			</div>
+			<div class="servers-list-bottom"></div>
+		</div>
+		
+		<div id="footer">
+			<div id="footer_logo"> </div>
+				<div id="linkContainer">
+					<div id="footer_left">
+												<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&subtype=attacks&mode=incomings&group=0&screen=overview_villages#" class="world_button_active evt-world-selection-toggle">Мир 22</a>
+												<a href="http://forum.voyna-plemyon.ru/index.php" class="footer-link" target="_blank">Форум</a>
+						&nbsp;-&nbsp;
+						<a href="http://help.voyna-plemyon.ru/" class="footer-link" target="_blank">Помощь</a>
+																		&nbsp;-&nbsp;
+						<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=ticket&screen=settings" class="footer-link" target="_blank">Поддержка</a>
+						&nbsp;-&nbsp;
+						<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&screen=buddies" class="footer-link">Друзья</a>
+																			&nbsp;-&nbsp;
+							<a href="http://ru22.voyna-plemyon.ru/game.php?village=75653&mode=ref&screen=settings" class="footer-link">Пригласить игроков</a>
+											</div>
+				</div>
+		</div>
+		
+<!-- Google Code for Staemme RU Ingame 15 Remarketing List -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1015132155;
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "XRNBCK3GzwIQ-9-G5AM";
+var google_conversion_value = 0;
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Деревня варваров (660 531) - Война племён - Мир 22_files/conversion.js">
+</script><img height="1" width="1" border="0" src="http://www.googleadservices.com/pagead/conversion/1015132155/?random=1372945361188&cv=7&fst=1372945361188&num=1&fmt=3&value=0&label=XRNBCK3GzwIQ-9-G5AM&bg=ffffff&hl=en&guid=ON&u_h=1080&u_w=1920&u_ah=1040&u_aw=1920&u_cd=32&u_his=5&u_tz=180&u_java=true&u_nplug=26&u_nmime=116&ref=http%3A//ru22.voyna-plemyon.ru/game.php%3Fvillage%3D75653%26mode%3Dincomings%26subtype%3Dattacks%26screen%3Doverview_villages&url=http%3A//ru22.voyna-plemyon.ru/game.php%3Fvillage%3D75653%26subtype%3Dattacks%26mode%3Dincomings%26group%3D0%26screen%3Doverview_villages&frm=0">
+<noscript>
+&lt;div style="display:inline;"&gt;
+&lt;img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/1015132155/?label=XRNBCK3GzwIQ-9-G5AM&amp;amp;guid=ON&amp;amp;script=0"/&gt;
+&lt;/div&gt;
+</noscript>
+	<script type="text/javascript">
+	<!--
+	$(document).ready(function() {
+		WorldSwitch.init();
+		WorldSwitch.worldsURL = '/game.php?village=75653&ajax=world_switch&screen=api';
+	});
+	// -->
+	</script>
+
+
+
+<div id="tooltip" style="display: none; left: 864px; right: auto; top: 252px;"><h3 style="">Деревни: 6</h3><div class="body" style="display: none;"></div><div class="url" style="display: none;"></div></div><script id="hiddenlpsubmitdiv" style="display: none;"></script><script>try{for(var lastpass_iter=0; lastpass_iter < document.forms.length; lastpass_iter++){ var lastpass_f = document.forms[lastpass_iter]; if(typeof(lastpass_f.lpsubmitorig2)=="undefined"){ lastpass_f.lpsubmitorig2 = lastpass_f.submit; lastpass_f.submit = function(){ var form=this; var customEvent = document.createEvent("Event"); customEvent.initEvent("lpCustomEvent", true, true); var d = document.getElementById("hiddenlpsubmitdiv"); for(var i = 0; i < document.forms.length; i++){ if(document.forms[i]==form){ d.innerText=i; } } d.dispatchEvent(customEvent); form.lpsubmitorig2(); } } }}catch(e){}</script></body></html>
